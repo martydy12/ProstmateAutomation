@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>text_Clinician</description>
+   <name>img_UserIcon</name>
+   <tag></tag>
+   <elementGuidId>5fa85ca6-1a9f-4274-b114-a5e815ce8b22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class='user-icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@class='user-icon']</value>
+      <webElementGuid>286eb4c8-a148-4120-8a8f-ed784e667381</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
