@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_Planned</name>
+   <tag></tag>
+   <elementGuidId>98cb9a46-1079-410a-bfce-05246fb5624c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'wtListRecords1')]//input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'wtListRecords1')]//input[1]</value>
+      <webElementGuid>56f11d07-94b4-43c3-92c1-0a2a1041493b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

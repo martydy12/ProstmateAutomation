@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Timeline</name>
+   <tag></tag>
+   <elementGuidId>0eb95b3d-4fa0-4a1f-87cd-4ee57bf2d0c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wttab1_block_wtTitle')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wttab1_block_wtTitle')]</value>
+      <webElementGuid>20d5a187-105c-458f-8f8f-5a8dd25aebc9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

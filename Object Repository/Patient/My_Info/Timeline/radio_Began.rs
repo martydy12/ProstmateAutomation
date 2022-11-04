@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_Began</name>
+   <tag></tag>
+   <elementGuidId>0f01883d-bac5-40e1-a0ad-bbb4e327e260</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'wtListRecords1')]//input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'wtListRecords1')]//input[2]</value>
+      <webElementGuid>f160a697-7cdf-4e55-8e4c-119b2e0f2edd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

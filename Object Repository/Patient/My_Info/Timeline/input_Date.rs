@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Date</name>
+   <tag></tag>
+   <elementGuidId>ed19611f-53a5-464e-957e-c61d9d82b3ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventMain')]//following-sibling::input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventMain')]//following-sibling::input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      <webElementGuid>99cecbf6-c423-45b7-89db-d036e25a761d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

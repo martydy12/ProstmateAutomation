@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_Date</name>
+   <tag></tag>
+   <elementGuidId>46834ae8-86b5-4b60-85f8-1814f674f5f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventMain')]//following-sibling::span[contains(@id,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventMain')]//following-sibling::span[contains(@id,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      <webElementGuid>2b51a3a3-1c0b-4f39-8447-f35e5b0229cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
