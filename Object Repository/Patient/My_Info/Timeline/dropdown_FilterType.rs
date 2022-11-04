@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_FilterType</name>
+   <tag></tag>
+   <elementGuidId>c0596ed1-472f-42a6-b1fd-96c5048a49f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Filter')]//div[contains(@id,'ButtonDropdownWrapper')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Filter')]//div[contains(@id,'ButtonDropdownWrapper')]</value>
+      <webElementGuid>a1eadc35-1a14-4f6d-9d84-43a0f1b9b33b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

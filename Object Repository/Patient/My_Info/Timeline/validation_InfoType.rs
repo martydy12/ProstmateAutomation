@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_InfoType</name>
+   <tag></tag>
+   <elementGuidId>d1a58107-da49-41f9-a292-4aad6e8b1f69</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventMain')]//following-sibling::span[contains(@id,'wtLifeEvent_LIFEEVENTTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventMain')]//following-sibling::span[contains(@id,'wtLifeEvent_LIFEEVENTTYPEID')]</value>
+      <webElementGuid>a9c585d8-4e63-416b-8706-edc983d91748</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

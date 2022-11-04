@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_WellnessCheck</name>
+   <tag></tag>
+   <elementGuidId>0074f7b5-1ebe-4fc1-bb4b-f637fdc576b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wttab3_block_wtTitle')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wttab3_block_wtTitle')]</value>
+      <webElementGuid>45ec42cd-ab77-41b0-99f7-6b11d6cec1e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

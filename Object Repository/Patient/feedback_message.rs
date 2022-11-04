@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>feedback_message</name>
+   <tag></tag>
+   <elementGuidId>e5270389-e2ca-418e-9148-bc6f8d7befec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class='Feedback_Message_Text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@class='Feedback_Message_Text']</value>
+      <webElementGuid>df81353a-a5a9-413c-9268-7e3382276970</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

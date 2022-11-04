@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Comment</name>
+   <tag></tag>
+   <elementGuidId>bde4435b-3f0a-4e79-aefe-3c60e9b0b6bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventMain')]//following-sibling::textarea[contains(@name,'LifeEvent_COMMENT')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventMain')]//following-sibling::textarea[contains(@name,'LifeEvent_COMMENT')]</value>
+      <webElementGuid>9bd75204-94bd-4ef7-8a6b-c8dc77284520</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

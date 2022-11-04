@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_PSAResult</name>
+   <tag></tag>
+   <elementGuidId>bd8233df-20d6-4a08-ae40-df8d6cbf1732</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'PSAValue')]//following-sibling::input[@id='DBHealthWidgets_wt54_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_OutSystemsUIWeb_wt66_block_wtTabs_Content_OutSystemsUIWeb_wtTimeline_block_wtContent_wt9_wt17_wtLifeEvent_LIFEEVENTVALUE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'PSAValue')]//following-sibling::input[@id='DBHealthWidgets_wt54_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_OutSystemsUIWeb_wt66_block_wtTabs_Content_OutSystemsUIWeb_wtTimeline_block_wtContent_wt9_wt17_wtLifeEvent_LIFEEVENTVALUE']</value>
+      <webElementGuid>023f72d3-ac39-4973-a665-23d0a0b7c863</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

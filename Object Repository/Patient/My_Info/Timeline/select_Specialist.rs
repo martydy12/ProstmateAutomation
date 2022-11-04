@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Specialist</name>
+   <tag></tag>
+   <elementGuidId>4f8a5c83-7012-4bf8-86a0-6f3658710e2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventMain')]//following-sibling::select[contains(@id,'wtLifeEvent_LIFEEVENTSUBTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventMain')]//following-sibling::select[contains(@id,'wtLifeEvent_LIFEEVENTSUBTYPEID')]</value>
+      <webElementGuid>f5928cd1-aec1-48a0-b212-556a4ff0b54c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

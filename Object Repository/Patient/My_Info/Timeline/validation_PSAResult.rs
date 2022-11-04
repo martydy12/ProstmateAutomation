@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_PSAResult</name>
+   <tag></tag>
+   <elementGuidId>c0414456-2241-46af-9a3d-a18d80433b19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'PSAValue')]//following-sibling::span[@id='ValidationMessage_DBHealthWidgets_wt54_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_OutSystemsUIWeb_wt66_block_wtTabs_Content_OutSystemsUIWeb_wtTimeline_block_wtContent_wt9_wt17_wtLifeEvent_LIFEEVENTVALUE']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'PSAValue')]//following-sibling::span[@id='ValidationMessage_DBHealthWidgets_wt54_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_OutSystemsUIWeb_wt66_block_wtTabs_Content_OutSystemsUIWeb_wtTimeline_block_wtContent_wt9_wt17_wtLifeEvent_LIFEEVENTVALUE']</value>
+      <webElementGuid>8efea3b2-dbf7-4971-9e04-46ed359b9cc4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_TreatmentType</name>
+   <tag></tag>
+   <elementGuidId>4edd7984-2fdf-468e-9988-ef0a87057664</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventSubType')]//select[contains(@name,'LIFEEVENTSUBTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventSubType')]//select[contains(@name,'LIFEEVENTSUBTYPEID')]</value>
+      <webElementGuid>027623b6-de39-4832-b092-867de13c5914</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

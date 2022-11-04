@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_PSA</name>
+   <tag></tag>
+   <elementGuidId>c5bef65d-13f1-445d-82c0-5af905c78c98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtTab2_block_wtTitle')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtTab2_block_wtTitle')]</value>
+      <webElementGuid>d4df40bf-b38a-43da-85b2-8f04bd754e48</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
