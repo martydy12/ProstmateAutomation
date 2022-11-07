@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_LogMeOut</name>
+   <tag></tag>
+   <elementGuidId>c5ae239f-bb8f-4892-95b6-6b4356f131a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'wtButton_Yes')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'wtButton_Yes')]</value>
+      <webElementGuid>65ff5871-5cc1-4724-92c9-15b9db4c46b6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

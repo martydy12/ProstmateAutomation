@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Today</name>
+   <tag></tag>
+   <elementGuidId>7501cbbd-8c25-43de-b98b-3f88dd9b768f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Today']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Today']</value>
+      <webElementGuid>55b0c2a9-3c46-4108-89bc-21ee0c090723</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

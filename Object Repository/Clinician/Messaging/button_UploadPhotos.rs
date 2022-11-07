@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UploadPhotos</name>
+   <tag></tag>
+   <elementGuidId>36265028-d5c7-4cc7-a387-82f386f366c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtDropboxContainer')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtDropboxContainer')]</value>
+      <webElementGuid>b0097738-4999-4afd-9e2f-0d8db5321da1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

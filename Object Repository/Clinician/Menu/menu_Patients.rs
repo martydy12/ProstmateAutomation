@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Patients</name>
+   <tag></tag>
+   <elementGuidId>09caa13c-acd8-4c70-a7cb-bb03185296f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Patients']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Patients']</value>
+      <webElementGuid>fd784e1b-4cf1-4e7e-9d4c-5a452f960e36</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

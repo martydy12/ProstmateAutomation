@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Previous</name>
+   <tag></tag>
+   <elementGuidId>dd4bf6e6-6e2e-4d41-be82-af15d6499a09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Previous']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Previous']</value>
+      <webElementGuid>bae32a07-636a-4a73-b6d9-8e3fdaab1d6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

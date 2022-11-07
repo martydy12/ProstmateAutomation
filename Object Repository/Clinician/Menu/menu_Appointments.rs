@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Appointments</name>
+   <tag></tag>
+   <elementGuidId>8c15801e-9859-4a7e-9496-e06382769bf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Appointments']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Appointments']</value>
+      <webElementGuid>34d46d05-74e0-4263-8768-1d5cc18959a2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

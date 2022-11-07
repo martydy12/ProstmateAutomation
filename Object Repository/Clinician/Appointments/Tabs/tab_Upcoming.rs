@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Upcoming</name>
+   <tag></tag>
+   <elementGuidId>fd267d6e-5bec-4acf-b52b-b2b8a8503e41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Upcoming']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Upcoming']</value>
+      <webElementGuid>a60b16f4-aeec-44d6-a5cc-f3e7be32aea8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SearchMessages</name>
+   <tag></tag>
+   <elementGuidId>8e855ebf-9b22-432b-af77-a9620df3685f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'wtSearchInput')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'wtSearchInput')]</value>
+      <webElementGuid>55a00791-21f0-4e23-b69a-79ae4c1f072c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

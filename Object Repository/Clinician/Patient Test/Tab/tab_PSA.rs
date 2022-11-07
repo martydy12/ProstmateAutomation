@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_PSA</name>
+   <tag></tag>
+   <elementGuidId>9489b191-89f7-46a0-9365-d6746a5bd9dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtTitle')]//span[text()='PSA']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtTitle')]//span[text()='PSA']</value>
+      <webElementGuid>b94a8c51-d390-4838-950e-befc60a520c3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

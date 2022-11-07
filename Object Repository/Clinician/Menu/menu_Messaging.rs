@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Messaging</name>
+   <tag></tag>
+   <elementGuidId>736ed1e7-4484-4a50-8ec8-72267060cc44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Messaging']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Messaging']</value>
+      <webElementGuid>1e9d0761-c9f6-4660-8a1e-9649e2d47081</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

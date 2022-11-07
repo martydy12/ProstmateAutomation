@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Logout</name>
+   <tag></tag>
+   <elementGuidId>763b35fb-282e-4587-8e75-554ca0a82dd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Logout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Logout']</value>
+      <webElementGuid>e6ffe163-411f-4f41-a59a-3303f8031669</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
