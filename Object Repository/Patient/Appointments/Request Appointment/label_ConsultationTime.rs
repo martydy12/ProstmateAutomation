@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ConsultationTime</name>
+   <tag></tag>
+   <elementGuidId>3613d454-6f02-4a63-a003-b7fc0a54fce4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'consultantionDate')]//div[2]//span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'consultantionDate')]//div[2]//span[2]</value>
+      <webElementGuid>6c178dad-e03a-4916-b670-d6acdd4585b4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

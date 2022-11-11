@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_TalkAbout1</name>
+   <tag></tag>
+   <elementGuidId>544902de-1ef6-4f56-bc74-0add72ba7730</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'ConsultType')]//div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'ConsultType')]//div[1]</value>
+      <webElementGuid>af1556bf-6d54-40ac-ae4a-cf5b0e63970d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

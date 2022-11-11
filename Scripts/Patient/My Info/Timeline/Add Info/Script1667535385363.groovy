@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Patient/menu_MyInfo'))
+WebUI.click(findTestObject('Patient/Menu/menu_MyInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/My_Info/text_Title'), 'MY INFO')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/text_Title'), 'MY INFO')
 
-WebUI.click(findTestObject('Patient/My_Info/tab_Timeline'))
+WebUI.click(findTestObject('Patient/My_Info/Tab/tab_Timeline'))
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
 
@@ -83,15 +83,15 @@ WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/feedback_message'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/feedback_message'), 'Life Event successfully added')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
 
 WebUI.delay(2)
 
 WebUI.comment('Info Type: DECISION')
 
-WebUI.scrollToElement(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
 
@@ -112,15 +112,15 @@ WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/feedback_message'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/feedback_message'), 'Life Event successfully added')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
 
 WebUI.delay(2)
 
 WebUI.comment('Info Type: JOURNAL')
 
-WebUI.scrollToElement(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
 
@@ -141,15 +141,56 @@ WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/feedback_message'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/feedback_message'), 'Life Event successfully added')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
+
+WebUI.delay(2)
+
+WebUI.comment('Info Type: PSA')
+
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Common/text_Title'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/select_InfoType'), 0)
+
+WebUI.selectOptionByLabel(findTestObject('Patient/My_Info/Timeline/select_InfoType'), 'PSA', false)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/input_Date'), 0)
+
+'Verify default date'
+WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/Timeline/input_Date'), 'value', '' + todaysDate.toString(), 
+    0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 0)
+
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 'Special character not allowed')
+
+WebUI.setText(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), '!@a')
+
+WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 'value', '', 0)
+
+'Save PSA'
+WebUI.setText(findTestObject('Patient/My_Info/Timeline/input_PSAResult'), '101')
+
+WebUI.setText(findTestObject('Patient/My_Info/Timeline/input_Comment'), 'Automation: PSA')
+
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
 
 WebUI.delay(2)
 
 WebUI.comment('Info Type: TO DO')
 
-WebUI.scrollToElement(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
 
@@ -172,15 +213,15 @@ WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/feedback_message'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/feedback_message'), 'Life Event successfully added')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
 
 WebUI.delay(2)
 
 WebUI.comment('Info Type: TREATMENT')
 
-WebUI.scrollToElement(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_AddInfo'))
 
@@ -205,7 +246,7 @@ WebUI.verifyElementText(findTestObject('Patient/My_Info/Timeline/validation_Trea
 
 WebUI.verifyElementText(findTestObject('Patient/My_Info/Timeline/validation_TreatmentStatus'), '    Please select status')
 
-WebUI.selectOptionByLabel(findTestObject('Patient/My_Info/Timeline/select_TreatmentType'), 'Chemotheraphy', false)
+WebUI.selectOptionByLabel(findTestObject('Patient/My_Info/Timeline/select_TreatmentType'), 'Chemotherapy', false)
 
 'Save Treatment'
 WebUI.click(findTestObject('Patient/My_Info/Timeline/radio_Planned'), FailureHandling.STOP_ON_FAILURE)
@@ -216,9 +257,11 @@ WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 
 
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/feedback_message'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/feedback_message'), 'Life Event successfully added')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
 
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

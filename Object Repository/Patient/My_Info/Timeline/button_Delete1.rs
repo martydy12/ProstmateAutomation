@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete1</name>
+   <tag></tag>
+   <elementGuidId>dbdccdfe-b987-45e6-a262-0f185367ccfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'blockdetail')][1]//div[contains(@id,'wtButtonDropdownWrapper')]//div[@class='ctn_timeline-edit']//a[text()='Delete']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'blockdetail')][1]//div[contains(@id,'wtButtonDropdownWrapper')]//div[@class='ctn_timeline-edit']//a[text()='Delete']</value>
+      <webElementGuid>7e256b45-009d-44cd-a541-279e12c9e6ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

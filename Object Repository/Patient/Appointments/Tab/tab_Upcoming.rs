@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Upcoming</name>
+   <tag></tag>
+   <elementGuidId>6a40e0b0-3194-45b0-a1f1-d5146d2aef99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Tabs_Header')]//div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Tabs_Header')]//div[2]</value>
+      <webElementGuid>a3fe6635-9168-46f6-be0a-0aa9e0f17c74</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

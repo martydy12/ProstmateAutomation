@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Pending</name>
+   <tag></tag>
+   <elementGuidId>9bbf64d7-95af-4b68-9987-dd57e3bc6df2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Tabs_Header')]//div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Tabs_Header')]//div[3]</value>
+      <webElementGuid>d759adfb-f894-446a-a921-5727ed5f7a15</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

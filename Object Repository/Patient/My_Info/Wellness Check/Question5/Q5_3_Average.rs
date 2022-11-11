@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Q5_3_Average</name>
+   <tag></tag>
+   <elementGuidId>1d62730a-19c9-46b0-9634-635437701933</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtListCheckupQuestion_ctl08_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='3-Average']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtListCheckupQuestion_ctl08_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='3-Average']</value>
+      <webElementGuid>2e272822-9b8f-4d98-a225-523669aed2de</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

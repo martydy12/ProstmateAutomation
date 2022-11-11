@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_EditDelete2</name>
+   <tag></tag>
+   <elementGuidId>2d919e1b-953b-4b0e-a416-0c393c16f306</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'blockdetail')][2]//div[contains(@id,'wtButtonDropdownWrapper')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'blockdetail')][2]//div[contains(@id,'wtButtonDropdownWrapper')]</value>
+      <webElementGuid>db96dfe4-fc06-46fb-a290-e74039500058</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

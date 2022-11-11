@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Q2_1_Poor</name>
+   <tag></tag>
+   <elementGuidId>c926c31b-561c-428a-8fb3-b47fbf03e988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtListCheckupQuestion_ctl02_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='1-Poor']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtListCheckupQuestion_ctl02_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='1-Poor']</value>
+      <webElementGuid>9a46df3e-abfe-4a06-b248-8efb549900f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

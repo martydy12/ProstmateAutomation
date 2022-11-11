@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Q4_5_Great</name>
+   <tag></tag>
+   <elementGuidId>556af00a-77c1-4c41-bef3-de1f98ff5821</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtListCheckupQuestion_ctl06_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='5-Great']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtListCheckupQuestion_ctl06_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='5-Great']</value>
+      <webElementGuid>ffbada90-591b-4dc2-9d85-ffa3e5cf6322</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

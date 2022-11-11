@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Previous</name>
+   <tag></tag>
+   <elementGuidId>fdb1df91-7e71-46e4-872b-111987a58f70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Tabs_Header')]//div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Tabs_Header')]//div[4]</value>
+      <webElementGuid>e507f0eb-efe7-48b4-8a61-d02b4ca30b98</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

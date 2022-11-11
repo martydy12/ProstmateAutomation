@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>edit_input_DueDate</name>
+   <tag></tag>
+   <elementGuidId>0002c67f-0d6d-4e46-87b8-cd7833bf7ab3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      <webElementGuid>409b5fad-1146-4e6f-8be6-4fd9c0f134a3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

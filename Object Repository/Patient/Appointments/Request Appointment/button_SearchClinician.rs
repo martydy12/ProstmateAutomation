@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SearchClinician</name>
+   <tag></tag>
+   <elementGuidId>52de4778-a935-4697-9c58-7bc2cf90e712</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'ClinicianDropDown2_chosen')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'ClinicianDropDown2_chosen')]</value>
+      <webElementGuid>68476b70-c699-4d9b-b9c9-c4de85e78b84</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

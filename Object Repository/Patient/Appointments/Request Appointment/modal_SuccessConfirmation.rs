@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_SuccessConfirmation</name>
+   <tag></tag>
+   <elementGuidId>b76a8c16-1ba8-4403-b805-b01ee88ade66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Success_block_wtContent')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Success_block_wtContent')]</value>
+      <webElementGuid>aa5690e5-a990-4962-a6e8-ba776489e83a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

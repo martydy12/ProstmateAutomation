@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_SelectAll</name>
+   <tag></tag>
+   <elementGuidId>30b0807f-c42c-4d08-bff7-59dce1669392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;dropdownMenu&quot;)]//div//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;dropdownMenu&quot;)]//div//input</value>
+      <webElementGuid>fb2dc593-15df-43cd-9a9d-67e30b6aba18</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

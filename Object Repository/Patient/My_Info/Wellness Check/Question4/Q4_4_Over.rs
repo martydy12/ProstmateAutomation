@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Q4_4_Over</name>
+   <tag></tag>
+   <elementGuidId>17ae40be-ded6-4aea-864a-642922df2ac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtListCheckupQuestion_ctl06_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='4-Over']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtListCheckupQuestion_ctl06_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='4-Over']</value>
+      <webElementGuid>6cb5b6a4-20e0-497a-9b36-9f4264bd50d8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>40fc6ac9-be88-416c-be05-dbc703b69a78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'inputPhone')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'inputPhone')]</value>
+      <webElementGuid>dac76c0b-ccae-4603-a9c4-9cca7e2cf6fb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

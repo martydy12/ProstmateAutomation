@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Today</name>
+   <tag></tag>
+   <elementGuidId>64e6730e-8679-48db-a252-717298d0e997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Tabs_Header')]//div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Tabs_Header')]//div[1]</value>
+      <webElementGuid>114cf533-fbf3-4844-bca1-ec593107b008</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

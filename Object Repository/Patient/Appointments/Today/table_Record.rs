@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_Record</name>
+   <tag></tag>
+   <elementGuidId>9b0d7d03-2d6c-4193-89da-3d3b447efddb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'TodayConsultationTable')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'TodayConsultationTable')]</value>
+      <webElementGuid>7cb72ba2-f798-4358-b343-5ec9d51e135b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

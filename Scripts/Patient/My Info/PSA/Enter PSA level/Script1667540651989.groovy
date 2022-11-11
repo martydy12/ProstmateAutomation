@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Patient/menu_MyInfo'))
+WebUI.click(findTestObject('Patient/Menu/menu_MyInfo'))
 
-WebUI.waitForElementVisible(findTestObject('Patient/My_Info/text_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/text_Title'), 0)
 
-WebUI.verifyElementText(findTestObject('Patient/My_Info/text_Title'), 'MY INFO')
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/text_Title'), 'MY INFO')
 
-WebUI.click(findTestObject('Patient/My_Info/tab_PSA'))
+WebUI.click(findTestObject('Patient/My_Info/Tab/tab_PSA'))
 
 WebUI.waitForElementVisible(findTestObject('Patient/My_Info/PSA/button_EnterPSALevel'), 0)
 
@@ -57,4 +57,28 @@ WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/PSA/input_Comm
     0)
 
 WebUI.clearText(findTestObject('Patient/My_Info/PSA/input_Comment'))
+
+WebUI.comment('Save PSA')
+
+WebUI.setText(findTestObject('Patient/My_Info/PSA/input_PSAResult'), '100')
+
+WebUI.setText(findTestObject('Patient/My_Info/PSA/input_Comment'), 'PSA Result was above normal')
+
+WebUI.click(findTestObject('Patient/My_Info/PSA/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life Event successfully added')
+
+WebUI.delay(2)
+
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Patient/My_Info/Tab/tab_PSA'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

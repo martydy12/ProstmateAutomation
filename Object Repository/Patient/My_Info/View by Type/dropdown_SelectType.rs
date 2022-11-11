@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_SelectType</name>
+   <tag></tag>
+   <elementGuidId>bbf92c46-4234-4829-b798-833ebbca366f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='ctn_viewby-dropdown']//div[contains(@id,'ButtonDropdownWrapper')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='ctn_viewby-dropdown']//div[contains(@id,'ButtonDropdownWrapper')]</value>
+      <webElementGuid>eb41768e-abe9-4693-aef6-7df6a9898db1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

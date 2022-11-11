@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>edit_select_InfoType</name>
+   <tag></tag>
+   <elementGuidId>ad9a1e82-efad-49d4-beba-785d7248333d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'LifeEventType')]//following-sibling::select[contains(@id,'wtLifeEvent_LIFEEVENTTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'LifeEventType')]//following-sibling::select[contains(@id,'wtLifeEvent_LIFEEVENTTYPEID')]</value>
+      <webElementGuid>cadd9acd-2ce4-408f-a221-6b03908d8f86</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

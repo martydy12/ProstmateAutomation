@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Decision</name>
+   <tag></tag>
+   <elementGuidId>682a0595-f049-4ebd-b0a7-77956012b428</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[2]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[2]//input</value>
+      <webElementGuid>7c94c4c1-71e5-4130-9c88-cc72bf7b0c1c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

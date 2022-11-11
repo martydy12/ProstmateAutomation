@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_ToDo</name>
+   <tag></tag>
+   <elementGuidId>34ecc3f0-09ed-4739-9b66-9ce16aef8957</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[5]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[5]//input</value>
+      <webElementGuid>faf44372-c3fa-4278-9240-231c80d3d91c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

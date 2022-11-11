@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ContactVia</name>
+   <tag></tag>
+   <elementGuidId>727b52c8-44e9-4f71-85e4-ef921ca0f5ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'ReviewDetails')]/div[2]/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'ReviewDetails')]/div[2]/div[3]/span</value>
+      <webElementGuid>19cea535-e3dd-4f05-859f-20fb00634487</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_result1</name>
+   <tag></tag>
+   <elementGuidId>0a9ab69b-7bc5-4e98-837f-4cbb4620e85f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul[@class='chosen-results']//li[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul[@class='chosen-results']//li[1]</value>
+      <webElementGuid>acf60de5-b1be-488a-8fbc-41bad5710e92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

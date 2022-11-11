@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Appointment</name>
+   <tag></tag>
+   <elementGuidId>eaac8f36-12b9-4aa9-880a-7ecbd4860035</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[1]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[1]//input</value>
+      <webElementGuid>83fb217c-5f4e-45f1-b787-c0c52cfc2b6b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

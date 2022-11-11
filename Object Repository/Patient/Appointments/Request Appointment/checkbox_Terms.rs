@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Terms</name>
+   <tag></tag>
+   <elementGuidId>ecc08818-6178-44fb-aecc-493fc8f7b26a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'wtContent_wtTerms')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'wtContent_wtTerms')]</value>
+      <webElementGuid>c74b5433-fa00-4570-ad69-7edd6bc0ceac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

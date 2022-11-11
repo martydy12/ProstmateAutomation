@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>edit_input_CompletedDate</name>
+   <tag></tag>
+   <elementGuidId>05bfb730-d124-46e2-b696-37012e51b7c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@name,'LifeEvent_LIFEEVENTCOMPLETEDDATE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@name,'LifeEvent_LIFEEVENTCOMPLETEDDATE')]</value>
+      <webElementGuid>b883daa8-b89f-4ac0-87bc-b4210d81fef6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

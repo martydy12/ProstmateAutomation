@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_PSA</name>
+   <tag></tag>
+   <elementGuidId>279184af-2f09-49bd-b7de-3d8bad461367</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[4]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;LifeEventTypeRecord&quot;)]//span//div[4]//input</value>
+      <webElementGuid>3d495d8a-cef2-46b3-a8c6-bd85a0906d06</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

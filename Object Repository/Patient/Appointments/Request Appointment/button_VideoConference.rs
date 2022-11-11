@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_VideoConference</name>
+   <tag></tag>
+   <elementGuidId>82860f70-8520-46a3-8b00-139b8fffa5dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'ContactType')]//span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'ContactType')]//span[2]</value>
+      <webElementGuid>2acce0e0-392a-43c6-acb4-a656006a6db7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit1</name>
+   <tag></tag>
+   <elementGuidId>10bcb1e0-ebfe-49a4-9c6d-162ca05b7786</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'blockdetail')][1]//div[contains(@id,'wtButtonDropdownWrapper')]//div[@class='ctn_timeline-edit']//a[text()='Edit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'blockdetail')][1]//div[contains(@id,'wtButtonDropdownWrapper')]//div[@class='ctn_timeline-edit']//a[text()='Edit']</value>
+      <webElementGuid>cd750144-c6e8-45c9-9f57-0d6b09e46859</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

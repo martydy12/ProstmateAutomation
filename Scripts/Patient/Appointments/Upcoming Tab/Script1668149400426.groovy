@@ -26,19 +26,19 @@ WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Common/text_Tit
 WebUI.verifyElementText(findTestObject('Patient/Appointments/Common/text_Title'), 'APPOINTMENTS')
 
 if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Tab/tab_Today'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Patient/Appointments/Tab/tab_Today'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Patient/Appointments/Tab/tab_Upcoming'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Today/table_Record'), 0)
+    WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Upcoming/table_Record'), 0)
 
-    if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Today/label_NoRecord'), FailureHandling.OPTIONAL)) {
-        WebUI.verifyElementText(findTestObject('Patient/Appointments/Today/label_NoRecord'), 'There’s no appointments to display...')
+    if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Upcoming/label_NoRecord'), FailureHandling.OPTIONAL)) {
+        WebUI.verifyElementText(findTestObject('Patient/Appointments/Upcoming/label_NoRecord'), 'There’s no appointments to display...')
     } else {
-        WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Today/TBRecord1'), FailureHandling.OPTIONAL)
+        WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Upcoming/TBRecord1'), FailureHandling.OPTIONAL)
 
-        WebUI.click(findTestObject('Patient/Appointments/Today/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('Patient/Appointments/Upcoming/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
     }
 } else {
-    WebUI.verifyElementNotPresent(findTestObject('Patient/Appointments/Today/table_Record'), 0)
+    WebUI.verifyElementNotPresent(findTestObject('Patient/Appointments/Upcoming/table_Record'), 0)
 }
 
 WebUI.delay(3)

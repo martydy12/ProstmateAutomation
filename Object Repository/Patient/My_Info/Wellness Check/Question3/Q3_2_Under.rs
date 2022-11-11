@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Q3_2_Under</name>
+   <tag></tag>
+   <elementGuidId>90c203f1-5288-42ea-94a6-2a93df8a1283</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtListCheckupQuestion_ctl04_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='2-Under']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtListCheckupQuestion_ctl04_wtctn_RangeSlider')]//div[contains(@id,'wtRangeSliderObject')]//div[text()='2-Under']</value>
+      <webElementGuid>9a708bc7-3e5b-48bd-a87a-72e91a2d5805</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
