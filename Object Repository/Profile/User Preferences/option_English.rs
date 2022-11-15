@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_English</name>
+   <tag></tag>
+   <elementGuidId>7e24779a-0b76-4175-af3b-fc00db477077</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'ListLocale')]//a//span[text()='English']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'ListLocale')]//a//span[text()='English']</value>
+      <webElementGuid>f47c67ff-1b33-49e0-aec4-271dd0e45a36</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

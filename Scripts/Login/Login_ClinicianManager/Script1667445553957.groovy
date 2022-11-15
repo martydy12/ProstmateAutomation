@@ -17,13 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login_Clinician'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Clinician/Appointments/button_ApprovePatient'))
+WebUI.navigateToUrl('https://test-rd-qut.dbresults.com.au/DBHCommonUI/Tenant2/Login/')
 
-WebUI.verifyTextPresent('You have accepted the following appointment.', false)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Clinician/Appointments/button_ok'))
+WebUI.setText(findTestObject('Common Objects/input_email'), 'testclinicianmanager@email.com')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Common Objects/input_Password'), 'Password123!')
+
+WebUI.click(findTestObject('Common Objects/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Common Objects/img_UserIcon'), 0)
 

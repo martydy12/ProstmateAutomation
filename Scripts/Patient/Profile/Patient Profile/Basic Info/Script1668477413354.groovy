@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
@@ -154,7 +154,7 @@ WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Common/feedback
 WebUI.verifyElementText(findTestObject('Patient/Appointments/Common/feedback_message'), 'Changes saved successfully')
 
 'To check if file was uploaded successfully'
-WebUI.verifyElementPresent(findTestObject('Profile/Basic Info/modal_FileUploadSuccess'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Basic Info/modal_FileUploadSuccess'), 0)
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

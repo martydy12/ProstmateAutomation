@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_Thai</name>
+   <tag></tag>
+   <elementGuidId>e43d2461-d537-4dcd-87c8-e61b2e964d37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'ListLocale')]//a//span[text()='Thai']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'ListLocale')]//a//span[text()='Thai']</value>
+      <webElementGuid>05655293-23af-4d35-9598-87a205283a12</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

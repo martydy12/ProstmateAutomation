@@ -21,41 +21,9 @@ WebUI.callTestCase(findTestCase('Login/Login_Patient'), [:], FailureHandling.STO
 
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
-WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Profile'), 0)
 
-WebUI.click(findTestObject('Profile/Dropdown/select_Logout'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Profile/Dropdown/select_Profile'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToFrame(findTestObject('Profile/Logout/modal_iframe'), 0)
-
-WebUI.comment('Cancel Logout')
-
-WebUI.waitForElementVisible(findTestObject('Profile/Logout/modal_LogoutConfirmation'), 0)
-
-WebUI.click(findTestObject('Profile/Logout/button_Cancel'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.switchToDefaultContent()
-
-WebUI.comment('Cancel Logout')
-
-WebUI.click(findTestObject('Common Objects/img_UserIcon'))
-
-WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout'), 0)
-
-WebUI.click(findTestObject('Profile/Dropdown/select_Logout'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.switchToFrame(findTestObject('Profile/Logout/modal_iframe'), 0)
-
-WebUI.waitForElementVisible(findTestObject('Profile/Logout/modal_LogoutConfirmation'), 0)
-
-WebUI.click(findTestObject('Profile/Logout/button_YesLogout'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.switchToDefaultContent()
-
-WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('Common Objects/text_Login'), 0)
-
-WebUI.verifyElementText(findTestObject('Common Objects/text_Login'), 'LOGIN')
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Profile/Basic Info/menu_MedicalInfo'), FailureHandling.STOP_ON_FAILURE)
 

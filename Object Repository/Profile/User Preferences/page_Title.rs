@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>page_Title</name>
+   <tag></tag>
+   <elementGuidId>34e6317f-4cc4-47d0-8adc-7c70f849ff8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class='heading1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@class='heading1']</value>
+      <webElementGuid>1402d46b-b056-4b1d-a2eb-5af2d975dac7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

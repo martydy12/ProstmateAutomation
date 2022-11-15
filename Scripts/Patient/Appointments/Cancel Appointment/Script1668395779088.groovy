@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'IMPORTANT: Make resolution 1920x1080, Scale 125%-150% before execution'
-WebUI.callTestCase(findTestCase('Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Patient/Menu/menu_Appointments'))
 
