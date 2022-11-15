@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_PositionNo</name>
+   <tag></tag>
+   <elementGuidId>06c7087f-67b3-4cf5-8b70-f7ca6acb278d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'MEDICAREPOSITIONNO')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'MEDICAREPOSITIONNO')]</value>
+      <webElementGuid>25e978dd-6347-4524-99af-134d21d8d7a3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

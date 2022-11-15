@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Medicare</name>
+   <tag></tag>
+   <elementGuidId>0047d57f-fd18-4c69-bf1c-1edd9f21640a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'MEDICARENUMBER')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'MEDICARENUMBER')]</value>
+      <webElementGuid>669be734-2b22-4df0-9a9b-0acf0e101b0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

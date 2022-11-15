@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel</name>
+   <tag></tag>
+   <elementGuidId>0b94d80c-e0c4-4ad1-b21c-0afc8e70cbeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='MainPopup']//input[@value='Cancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='MainPopup']//input[@value='Cancel']</value>
+      <webElementGuid>4b8c7ef5-ac56-4d0a-aae4-8e7064b25f79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

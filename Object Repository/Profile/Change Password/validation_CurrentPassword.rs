@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_CurrentPassword</name>
+   <tag></tag>
+   <elementGuidId>93cb06b4-dbb8-422e-970b-850b37c99c00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'Input_CurrentPassword')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'Input_CurrentPassword')]</value>
+      <webElementGuid>f5dea487-1db8-4dae-a8a6-568f188c5c46</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

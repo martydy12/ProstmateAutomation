@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_CancelAppointment</name>
+   <tag></tag>
+   <elementGuidId>2bd7513d-fece-4513-a801-87b82f98f6e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'DeclineModal_block_wtContent')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'DeclineModal_block_wtContent')]</value>
+      <webElementGuid>9a43d0d5-0472-4430-ae76-7a4a8df7bfd2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

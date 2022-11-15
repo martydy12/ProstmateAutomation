@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_Cancel</name>
+   <tag></tag>
+   <elementGuidId>48e3b4ce-60c2-48a1-a727-da0811ea636f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'PendingConsultationTable')]//tbody//tr[1]//td[5]//span[contains(@id,'ListRecordsDropdown')]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'PendingConsultationTable')]//tbody//tr[1]//td[5]//span[contains(@id,'ListRecordsDropdown')]//a</value>
+      <webElementGuid>1ebb1701-89cf-444c-9e73-13fbaa4c5f45</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

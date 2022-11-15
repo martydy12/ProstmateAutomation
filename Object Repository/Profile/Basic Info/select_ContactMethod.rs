@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ContactMethod</name>
+   <tag></tag>
+   <elementGuidId>e7e82e46-fe3e-4ec4-812e-680e4176e4bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'CONTACTPREFERENCETYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'CONTACTPREFERENCETYPEID')]</value>
+      <webElementGuid>8ae88c5c-7fdf-4223-8de0-01603e737f15</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

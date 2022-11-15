@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue_empty</name>
+   <tag></tag>
+   <elementGuidId>3c02e119-8709-47a3-bc90-fa7e435bf101</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'ErrorModal3_block_wtActions')]//input[@value='Continue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'ErrorModal3_block_wtActions')]//input[@value='Continue']</value>
+      <webElementGuid>a3b3bdd7-2c71-4e2f-8e19-3db79945b3b4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_NewPassword</name>
+   <tag></tag>
+   <elementGuidId>311451a2-c539-4cde-9638-1555fc8868c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'Input_NewPassword')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'Input_NewPassword')]</value>
+      <webElementGuid>88b87201-dedd-4e94-9fe2-7cdc1c6fdedc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

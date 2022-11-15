@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_FileUploadSuccess</name>
+   <tag></tag>
+   <elementGuidId>6445b4b2-c6d4-4dbe-a64f-c5df459f8258</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='DBHealthWidgets_wtModalUploadPicture_block_wtContent']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='DBHealthWidgets_wtModalUploadPicture_block_wtContent']</value>
+      <webElementGuid>f85f0d7e-1e1e-4c61-8892-7f7bce6055ae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

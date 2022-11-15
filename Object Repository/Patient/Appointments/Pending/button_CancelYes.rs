@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CancelYes</name>
+   <tag></tag>
+   <elementGuidId>4e5d41ae-0ced-4b88-9354-dafa83893cbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value='Yes']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@value='Yes']</value>
+      <webElementGuid>98506947-badb-4ec5-aa1b-7c9fd97c1fe6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

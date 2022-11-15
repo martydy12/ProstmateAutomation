@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_MedicalInfo</name>
+   <tag></tag>
+   <elementGuidId>02bbcbce-f123-41c4-b215-0c40eae56734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id,&quot;profilemenu&quot;)][2]/div//span//div[2]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@id,&quot;profilemenu&quot;)][2]/div//span//div[2]//a</value>
+      <webElementGuid>4bf0d2f7-f5ac-4a31-9dff-d5ceb5810c40</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -31,3 +31,7 @@ WebUI.click(findTestObject('Common Objects/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Common Objects/img_UserIcon'), 0)
 
+if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.STOP_ON_FAILURE)
+}
+

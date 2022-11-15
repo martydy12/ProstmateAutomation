@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_EmergencyPhoneNum</name>
+   <tag></tag>
+   <elementGuidId>ca43c6f9-c415-4e68-97e2-9e75b0b46b1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'EMERGENCYCONTACTNUM')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'EMERGENCYCONTACTNUM')]</value>
+      <webElementGuid>64eec98b-cc34-42ae-83aa-233175fd11a3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

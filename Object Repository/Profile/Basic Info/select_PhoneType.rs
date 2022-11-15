@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_PhoneType</name>
+   <tag></tag>
+   <elementGuidId>953357b0-4701-4304-8456-9c33da0b7893</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'PRIMARYCONTACTTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'PRIMARYCONTACTTYPEID')]</value>
+      <webElementGuid>d8ed7dbc-98ec-4c2f-9d6e-349e7f9d22cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

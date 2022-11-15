@@ -17,3 +17,61 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Patient/Menu/menu_MyInfo'))
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/text_Title'), 0)
+
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/text_Title'), 'MY INFO')
+
+WebUI.click(findTestObject('Patient/My_Info/Tab/tab_Timeline'))
+
+WebUI.click(findTestObject('Patient/My_Info/View by Type/dropdown_SelectType'))
+
+WebUI.delay(2)
+
+WebUI.uncheck(findTestObject('Patient/My_Info/View by Type/checkbox_SelectAll'))
+
+WebUI.delay(2)
+
+WebUI.check(findTestObject('Patient/My_Info/View by Type/checkbox_Journal'))
+
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/label_Date'), 0)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/dropdown_EditDelete1'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/dropdown_EditDelete1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/button_Delete1'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_Delete1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/modal_delete'), 0)
+
+WebUI.comment('Cancel Delete')
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_CancelDelete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.comment('Delete Info')
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/dropdown_EditDelete1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/button_Delete1'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_Delete1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/modal_delete'), 0)
+
+WebUI.click(findTestObject('Patient/My_Info/Timeline/button_DeleteDelete'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Common/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Patient/My_Info/Common/feedback_message'), 'Life event successfully deleted.')
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_Password</name>
+   <tag></tag>
+   <elementGuidId>fdde58a0-f9f6-4e8d-aa3a-a23326abf4b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'PasswordInput')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'PasswordInput')]</value>
+      <webElementGuid>f4831fa5-5322-45da-aaff-7b94f9f4da31</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

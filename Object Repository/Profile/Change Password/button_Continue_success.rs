@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue_success</name>
+   <tag></tag>
+   <elementGuidId>73cb567e-bcd5-409b-98b4-48689afae224</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtSuccessModal_block_wtActions')]//input[@value='Continue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtSuccessModal_block_wtActions')]//input[@value='Continue']</value>
+      <webElementGuid>e9fd3f2b-9477-4c32-aa28-310064b214a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

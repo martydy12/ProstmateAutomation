@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_SuccessAppointmentCancelled</name>
+   <tag></tag>
+   <elementGuidId>76029c49-1f6e-45b4-a7b9-859f85da60b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='DBHealthWidgets_wtSuccess_block_wtContent']//div[@class='ModalTextContainerCancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='DBHealthWidgets_wtSuccess_block_wtContent']//div[@class='ModalTextContainerCancel']</value>
+      <webElementGuid>0f19b0c6-2390-42eb-9876-cf171dcaa2ca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_EmergencyPhoneType</name>
+   <tag></tag>
+   <elementGuidId>827bc096-8a83-487b-b6f0-b13befa4446e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'EMERGENCYCONTACTTYPEID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'EMERGENCYCONTACTTYPEID')]</value>
+      <webElementGuid>5820360a-373d-4899-a0b7-deb4e8be17ed</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

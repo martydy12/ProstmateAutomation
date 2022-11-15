@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CurrentPassword</name>
+   <tag></tag>
+   <elementGuidId>6cac3880-4116-4990-a817-96b69bf820c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'Input_CurrentPassword')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'Input_CurrentPassword')]</value>
+      <webElementGuid>318b23dc-4b46-4d9a-bf08-2a45c0d21a45</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

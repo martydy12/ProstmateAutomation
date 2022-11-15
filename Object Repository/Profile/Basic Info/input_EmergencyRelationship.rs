@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_EmergencyRelationship</name>
+   <tag></tag>
+   <elementGuidId>9588e1f5-266c-4cf1-8e2d-4ec502b4e02d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'EMERGENCYCONTACTRELATION')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'EMERGENCYCONTACTRELATION')]</value>
+      <webElementGuid>2395f37f-48c7-444d-af74-c3b049deaa2e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

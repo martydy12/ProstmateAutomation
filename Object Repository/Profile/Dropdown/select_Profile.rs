@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Profile</name>
+   <tag></tag>
+   <elementGuidId>f5cb36de-243c-43e4-9338-63c6253fc6bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[1]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[1]//a</value>
+      <webElementGuid>30c5f922-d6fa-49a5-b3e0-25fc097e4d81</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

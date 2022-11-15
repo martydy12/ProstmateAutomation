@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_PrivateHealthInsurance</name>
+   <tag></tag>
+   <elementGuidId>d9572624-4080-416a-ba58-9e8d62d76061</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'PRIVATEHEALTHINSURE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'PRIVATEHEALTHINSURE')]</value>
+      <webElementGuid>deef1fbf-b3b8-4178-bf0c-7d5a880e33b1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

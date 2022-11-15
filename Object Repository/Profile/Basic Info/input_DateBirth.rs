@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_DateBirth</name>
+   <tag></tag>
+   <elementGuidId>d4cd853b-d529-4225-b5e0-3f6c48feeba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'DATEOFBIRTH')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'DATEOFBIRTH')]</value>
+      <webElementGuid>ee8108cc-06c2-4815-a512-fda2fb676256</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

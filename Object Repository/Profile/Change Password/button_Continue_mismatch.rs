@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue_mismatch</name>
+   <tag></tag>
+   <elementGuidId>00635d06-d71c-49dd-a111-55fba813c3ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'ErrorModal2_block_wtActions')]//input[@value='Continue']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'ErrorModal2_block_wtActions')]//input[@value='Continue']</value>
+      <webElementGuid>5c04f729-0f42-404a-8e47-0b361584da8c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

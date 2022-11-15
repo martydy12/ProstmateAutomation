@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RequestDeclinedCancel</name>
+   <tag></tag>
+   <elementGuidId>332dfda7-cba3-4f68-815f-cf1823b319a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='DBHealthWidgets_wtDeclinedConsultations_block_wtActions']//input[@value='Cancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='DBHealthWidgets_wtDeclinedConsultations_block_wtActions']//input[@value='Cancel']</value>
+      <webElementGuid>4d5bb178-cbd8-4e04-b12d-8c098cc3107d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

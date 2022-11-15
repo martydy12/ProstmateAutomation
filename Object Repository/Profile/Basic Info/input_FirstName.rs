@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_FirstName</name>
+   <tag></tag>
+   <elementGuidId>53013f61-3ca8-4f4b-aa7d-eefa3fcdfce7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'FIRSTNAME')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'FIRSTNAME')]</value>
+      <webElementGuid>75d53333-f639-438b-b093-d0f532ef7be5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

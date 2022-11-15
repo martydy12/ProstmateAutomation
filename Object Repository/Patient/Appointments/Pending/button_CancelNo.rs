@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CancelNo</name>
+   <tag></tag>
+   <elementGuidId>138d4d19-d245-44b1-bc5d-78cd4fa4d2c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value='No']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@value='No']</value>
+      <webElementGuid>7fa8329f-c074-4d3f-942f-951551a72f96</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

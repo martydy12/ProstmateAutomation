@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_EmergencyName</name>
+   <tag></tag>
+   <elementGuidId>5786d559-be0c-4b4d-b48b-97686c81cc88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'EMERGENCYCONTACTNAME')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'EMERGENCYCONTACTNAME')]</value>
+      <webElementGuid>0af789c8-2848-44f3-9c68-67583478bf2e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ConfirmPassword</name>
+   <tag></tag>
+   <elementGuidId>c73a61ad-b8d8-4210-930a-d68f5c2376bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'Input_ConfirmPassword')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'Input_ConfirmPassword')]</value>
+      <webElementGuid>ff459972-cb03-4b8e-8896-d82cbe18bd67</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

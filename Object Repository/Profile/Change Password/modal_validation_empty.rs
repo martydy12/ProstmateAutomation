@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_validation_empty</name>
+   <tag></tag>
+   <elementGuidId>c79813f8-3b0f-4b42-b7da-36eab8c381f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'ErrorModal3_block_wtContent')]//span[@class='heading4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'ErrorModal3_block_wtContent')]//span[@class='heading4']</value>
+      <webElementGuid>331d528b-b425-45dc-b841-e561557f46dd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

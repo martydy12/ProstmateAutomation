@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_iframe</name>
+   <tag></tag>
+   <elementGuidId>02acb2c4-3769-4cb8-ad15-f0b67a9dfdb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//iframe</value>
+      <webElementGuid>5d40b500-2fd0-4874-a436-f2a2ab791995</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

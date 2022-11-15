@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Logout</name>
+   <tag></tag>
+   <elementGuidId>8cd669fb-e419-4282-afe6-5a9671ecdb43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[3]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[3]//a</value>
+      <webElementGuid>8c221409-6a60-446b-83cb-64c23185b123</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

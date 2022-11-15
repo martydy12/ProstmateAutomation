@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ChangePassword</name>
+   <tag></tag>
+   <elementGuidId>7895f140-ced1-42da-a466-98c2e67b513b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[2]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'wtHeader_wtRight')]//div[contains(@id,&quot;DropdownList&quot;)]//div[2]//a</value>
+      <webElementGuid>53f5e84e-90ac-4329-b580-b3602483d4ea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
