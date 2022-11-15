@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_GPPhone</name>
+   <tag></tag>
+   <elementGuidId>17f967e7-622e-422b-aa57-e4e4421bb2a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'GPPHONE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'GPPHONE')]</value>
+      <webElementGuid>14e1a634-2f6b-42b3-bf7e-256c3d4880ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

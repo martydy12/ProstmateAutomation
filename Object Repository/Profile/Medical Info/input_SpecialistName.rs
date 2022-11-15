@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SpecialistName</name>
+   <tag></tag>
+   <elementGuidId>04921332-cbc3-4315-9c7e-559a9827b614</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'SPECIALISTNAME')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'SPECIALISTNAME')]</value>
+      <webElementGuid>9c07f325-ac58-4940-ac17-89845cbed2ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

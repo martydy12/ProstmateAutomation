@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Allergies</name>
+   <tag></tag>
+   <elementGuidId>e57d5988-5d8b-497a-8a19-c125c5fb82bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'ALLERGIES')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@id,'ALLERGIES')]</value>
+      <webElementGuid>a4adb432-4c23-4ed1-98ea-37459ad1aaa1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

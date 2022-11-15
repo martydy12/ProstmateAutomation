@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_GPName</name>
+   <tag></tag>
+   <elementGuidId>6a761af2-eeae-4f1d-99b6-982e33392d9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'GPNAME')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'GPNAME')]</value>
+      <webElementGuid>7aa5ace2-a73b-4722-8cef-82564189874b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

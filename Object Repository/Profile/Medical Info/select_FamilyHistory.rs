@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_FamilyHistory</name>
+   <tag></tag>
+   <elementGuidId>1153a8e5-bf27-447c-9ef5-e73b93b5b545</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'FAMILYHISTORY')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'FAMILYHISTORY')]</value>
+      <webElementGuid>332ca3f6-da5c-43d9-b045-9d6d0cd94609</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

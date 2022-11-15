@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Specialty</name>
+   <tag></tag>
+   <elementGuidId>b99a4ffa-cbcf-4cc8-b503-ff4444e4d345</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'SPECIALTY')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'SPECIALTY')]</value>
+      <webElementGuid>9d496707-d8a1-49fc-9560-29ea89550951</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

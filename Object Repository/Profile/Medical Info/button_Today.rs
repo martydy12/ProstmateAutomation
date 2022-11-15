@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Today</name>
+   <tag></tag>
+   <elementGuidId>ce70d902-7670-4f4d-b6cf-ad730c5271de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[text()='Today']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[text()='Today']</value>
+      <webElementGuid>71d51bb6-f65b-461e-a017-2e87ceaa411e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

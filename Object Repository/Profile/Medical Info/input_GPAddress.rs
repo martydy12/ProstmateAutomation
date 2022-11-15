@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_GPAddress</name>
+   <tag></tag>
+   <elementGuidId>13bb4bfb-6457-4b4c-b2c5-2fb3bc2041c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'GPADDRESS')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'GPADDRESS')]</value>
+      <webElementGuid>e997c97e-3743-4256-90ea-1e331303c392</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Weight</name>
+   <tag></tag>
+   <elementGuidId>981a0528-0eb9-4985-83bb-67fbb49f4fbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'WEIGHT')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'WEIGHT')]</value>
+      <webElementGuid>2146c3d9-01c8-4aae-b7cc-09756e395e92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

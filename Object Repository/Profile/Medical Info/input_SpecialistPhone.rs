@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SpecialistPhone</name>
+   <tag></tag>
+   <elementGuidId>7fa1bfe2-c568-4c56-808c-3439b496c7ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'SPECIALISTPHONE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'SPECIALISTPHONE')]</value>
+      <webElementGuid>d7bf434b-0711-4e9e-86f9-6ed16fc752a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
