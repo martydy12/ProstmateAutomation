@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_SearchResources</name>
+   <name>Input_ClinicianEmail</name>
    <tag></tag>
-   <elementGuidId>12ee57cf-dfcc-411c-9c30-c6f33b178f3d</elementGuidId>
+   <elementGuidId>c8c32a92-7072-419e-9970-0088177442ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@id,'lstbxTags')]</value>
+         <value>//input[contains(@id,'Clinician_Email')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@id,'lstbxTags')]</value>
-      <webElementGuid>8110d89d-2c2a-4a78-b51d-3bcb34934d34</webElementGuid>
+      <value>//input[contains(@id,'Clinician_Email')]</value>
+      <webElementGuid>22e9c736-f0a9-45f8-b31b-8454d7d83fe3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_SearchResources</name>
+   <name>tab_Previous</name>
    <tag></tag>
-   <elementGuidId>12ee57cf-dfcc-411c-9c30-c6f33b178f3d</elementGuidId>
+   <elementGuidId>25807cbc-d807-4542-872a-9eb5c010e838</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@id,'lstbxTags')]</value>
+         <value>//div[text()='Previous']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@id,'lstbxTags')]</value>
-      <webElementGuid>8110d89d-2c2a-4a78-b51d-3bcb34934d34</webElementGuid>
+      <value>//div[text()='Previous']</value>
+      <webElementGuid>ce268fe6-d970-476f-a446-670834ceedfd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

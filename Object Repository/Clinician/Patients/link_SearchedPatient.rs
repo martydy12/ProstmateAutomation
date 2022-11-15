@@ -4,6 +4,20 @@
    <name>link_SearchedPatient</name>
    <tag></tag>
    <elementGuidId>0e608710-83df-4cab-b405-b1b51691f87b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@id,'Lnk_Firstname')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@id,'Lnk_Firstname')]</value>
+      <webElementGuid>6c2a371e-a412-48ae-a111-559669bc6817</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
