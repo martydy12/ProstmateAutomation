@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//span[@class='heading1']</value>
-      <webElementGuid>b39d6fb7-4712-469b-8174-f34505b613bf</webElementGuid>
+      <webElementGuid>51284f83-c8f6-441f-9446-486cbba70aa8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

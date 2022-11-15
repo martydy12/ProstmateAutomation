@@ -31,7 +31,7 @@ WebUI.waitForElementVisible(findTestObject('Profile/Basic Info/page_Title'), 0)
 
 WebUI.verifyElementText(findTestObject('Profile/Basic Info/page_Title'), 'BASIC INFORMATION')
 
-WebUI.comment('BASIC INFORMATION - Next button')
+WebUI.comment('Save Info - Next button')
 
 WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_FirstName'), 'value', 'Patient', 0)
 
@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Profile/Basic Info/input_DateBirth'), '25-Dec-1950
 'Add Gender'
 WebUI.selectOptionByLabel(findTestObject('Profile/Basic Info/select_GenderID'), 'Male', false)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1111', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1233', 0)
 
 WebUI.comment('ADD CONTACT DETAILS')
 
@@ -120,7 +120,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_DateB
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('Profile/Basic Info/select_GenderID'), 'Male', false, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1111', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1233', 0)
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('Profile/Basic Info/select_ContactMethod'), 'Phone', false, 0)
 

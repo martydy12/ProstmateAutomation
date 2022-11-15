@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>page_Title</name>
+   <name>button_SaveThai</name>
    <tag></tag>
-   <elementGuidId>34e6317f-4cc4-47d0-8adc-7c70f849ff8f</elementGuidId>
+   <elementGuidId>0b5eb44e-8749-440e-9c68-0bb29e103b84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='content-top-title heading1 ph']</value>
+         <value>//input[@value='บันทึก']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='content-top-title heading1 ph']</value>
-      <webElementGuid>eaee62bd-bacb-4f3c-9781-f77e4e9f5f11</webElementGuid>
+      <value>//input[@value='บันทึก']</value>
+      <webElementGuid>5e30ccaa-7f91-4f26-a889-f35a175fde38</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

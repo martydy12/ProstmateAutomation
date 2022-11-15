@@ -27,7 +27,41 @@ WebUI.click(findTestObject('Profile/Dropdown/select_Profile'), FailureHandling.S
 
 WebUI.click(findTestObject('Profile/Basic Info/menu_UserPreferences'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Profile/Basic Info/page_Title'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/User Preferences/page_Title'), 0)
 
-WebUI.verifyElementText(findTestObject('Profile/Basic Info/page_Title'), 'USER PREFERENCES')
+WebUI.verifyElementText(findTestObject('Profile/User Preferences/page_Title'), 'USER PREFERENCES')
+
+WebUI.comment('Change Language to Thai')
+
+WebUI.click(findTestObject('Profile/User Preferences/select_Language'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile/User Preferences/option_Thai'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile/User Preferences/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'ตั้งค่าภาษาที่ต้องการสำเร็จแล้ว')
+
+WebUI.verifyElementText(findTestObject('Profile/User Preferences/page_Title'), 'ความพอใจของผู้ใช้')
+
+WebUI.delay(2)
+
+WebUI.comment('Change Language to English')
+
+WebUI.click(findTestObject('Profile/User Preferences/select_Language'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile/User Preferences/option_English'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Profile/User Preferences/button_SaveThai'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Preferred Language Successfully Set')
+
+WebUI.verifyElementText(findTestObject('Profile/User Preferences/page_Title'), 'USER PREFERENCES')
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
