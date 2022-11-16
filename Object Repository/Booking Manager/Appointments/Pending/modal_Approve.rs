@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_NoRecord</name>
+   <name>modal_Approve</name>
    <tag></tag>
-   <elementGuidId>9da46fbc-784e-454c-9a92-52db4b1c666e</elementGuidId>
+   <elementGuidId>fb003ab3-6826-4d0b-a34d-b300cf6eb503</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
+         <value>//span[@id='DBHealthWidgets_wtSuccess_block']//div[@class='card']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
-      <webElementGuid>3614ed1c-e93c-4dc0-a74b-e1f2052fcb4f</webElementGuid>
+      <value>//span[@id='DBHealthWidgets_wtSuccess_block']//div[@class='card']</value>
+      <webElementGuid>f0f847ad-9f47-4283-8859-d0aa196bc400</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

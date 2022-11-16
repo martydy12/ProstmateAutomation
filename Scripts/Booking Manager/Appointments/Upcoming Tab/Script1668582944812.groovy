@@ -17,21 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/Login_BookingManager'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://test-rd-qut.dbresults.com.au/DBHCommonUI/Tenant2/Login/')
+WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Common/page_Title'), 'APPOINTMENTS')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Booking Manager/Appointments/Tab/tab_Upcoming'))
 
-WebUI.setText(findTestObject('Common Objects/input_email'), 'TestAutomationPatient@email.com')
-
-WebUI.setText(findTestObject('Common Objects/input_Password'), 'Password123!')
-
-WebUI.click(findTestObject('Common Objects/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Common Objects/img_UserIcon'), 0)
-
-if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.STOP_ON_FAILURE)
+if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Upcoming/label_NoRecord'), FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Upcoming/label_NoRecord'), 'It looks like you don\'t have any appointments...')
+} else {
+    WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Upcoming/TBRecord1'), FailureHandling.OPTIONAL)
 }
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_NoRecord</name>
+   <name>TBRecord1_Name</name>
    <tag></tag>
-   <elementGuidId>9da46fbc-784e-454c-9a92-52db4b1c666e</elementGuidId>
+   <elementGuidId>58fd6f92-bdc0-4877-944e-c81a1458de4c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
+         <value>//table[contains(@id,'ConsultationsPrevious')]//tbody//tr[1]//td[1]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
-      <webElementGuid>3614ed1c-e93c-4dc0-a74b-e1f2052fcb4f</webElementGuid>
+      <value>//table[contains(@id,'ConsultationsPrevious')]//tbody//tr[1]//td[1]//a</value>
+      <webElementGuid>454ee6ef-1082-4e96-b515-1dca2dfed8ea</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

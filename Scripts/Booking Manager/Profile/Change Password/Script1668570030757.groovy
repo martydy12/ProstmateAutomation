@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login_BookingManager'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
-WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_ChangePassword'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_ChangePassword_2'), 0)
 
-WebUI.click(findTestObject('Profile/Dropdown/select_ChangePassword'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Profile/Dropdown/select_ChangePassword_2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Profile/Change Password/text_PageTitle'), 0)
 
@@ -128,9 +128,9 @@ WebUI.comment('Logout')
 
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
-WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout_2'), 0)
 
-WebUI.click(findTestObject('Profile/Dropdown/select_Logout'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Profile/Dropdown/select_Logout_2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.switchToFrame(findTestObject('Profile/Logout/modal_iframe'), 0)
 
@@ -148,7 +148,7 @@ WebUI.verifyElementText(findTestObject('Common Objects/text_Login'), 'LOGIN')
 
 WebUI.comment('Login Old Password')
 
-WebUI.setText(findTestObject('Common Objects/input_email'), 'TestAutomationPatient@email.com')
+WebUI.setText(findTestObject('Common Objects/input_email'), 'Testbookingmanager@email.com')
 
 WebUI.setText(findTestObject('Common Objects/input_Password'), 'Password123!')
 
@@ -168,15 +168,11 @@ WebUI.click(findTestObject('Common Objects/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Common Objects/img_UserIcon'), 0)
 
-if (WebUI.verifyElementVisible(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Patient/Appointments/Common/button_RequestDeclinedCancel'), FailureHandling.STOP_ON_FAILURE)
-}
-
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
-WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_ChangePassword'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_ChangePassword_2'), 0)
 
-WebUI.click(findTestObject('Profile/Dropdown/select_ChangePassword'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Profile/Dropdown/select_ChangePassword_2'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Profile/Change Password/text_PageTitle'), 0)
 

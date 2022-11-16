@@ -3,11 +3,11 @@
    <description></description>
    <name>label_NoRecord</name>
    <tag></tag>
-   <elementGuidId>9da46fbc-784e-454c-9a92-52db4b1c666e</elementGuidId>
+   <elementGuidId>d8af1ba0-354e-4dd4-95e7-e5df3bb4c233</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
+         <value>//table[contains(@id,'ConsultationsToday')]//td[contains(text(),'It looks like you')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'TodayConsultationTable')]//td[text()='There’s no appointments to display...']</value>
-      <webElementGuid>3614ed1c-e93c-4dc0-a74b-e1f2052fcb4f</webElementGuid>
+      <value>//table[contains(@id,'ConsultationsToday')]//td[contains(text(),'It looks like you')]</value>
+      <webElementGuid>6c6eef1c-4809-4576-9ed6-6ea9d99e31fb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

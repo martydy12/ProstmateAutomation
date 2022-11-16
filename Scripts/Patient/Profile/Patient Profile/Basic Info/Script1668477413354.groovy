@@ -33,9 +33,9 @@ WebUI.verifyElementText(findTestObject('Profile/Basic Info/page_Title'), 'BASIC 
 
 WebUI.comment('Save Info - Next button')
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_FirstName'), 'value', 'Patient', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_FirstName'), 'value', 'Patient Test', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_LastName'), 'value', 'Test', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_LastName'), 'value', 'Automation', 0)
 
 'Input Preferred Name'
 WebUI.setText(findTestObject('Profile/Basic Info/input_PreferredName'), 'Automation Patient')
@@ -48,14 +48,15 @@ WebUI.setText(findTestObject('Profile/Basic Info/input_DateBirth'), '25-Dec-1950
 'Add Gender'
 WebUI.selectOptionByLabel(findTestObject('Profile/Basic Info/select_GenderID'), 'Male', false)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1233', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1234', 0)
 
 WebUI.comment('ADD CONTACT DETAILS')
 
 'Add Preferred Contact Method'
 WebUI.selectOptionByLabel(findTestObject('Profile/Basic Info/select_ContactMethod'), 'Phone', false)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Email'), 'value', 'TestPatient2@email.com', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Email'), 'value', 'TestAutomationPatient@email.com', 
+    0)
 
 'Select Primary Phone Type'
 WebUI.selectOptionByLabel(findTestObject('Profile/Basic Info/select_PhoneType'), 'Mobile', false)
@@ -109,9 +110,9 @@ WebUI.uploadFile(findTestObject('Profile/Basic Info/button_UploadImage'), Upload
 
 WebUI.comment('Check if changes was save')
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_FirstName'), 'value', 'Patient', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_FirstName'), 'value', 'Patient Test', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_LastName'), 'value', 'Test', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_LastName'), 'value', 'Automation', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_PreferredName'), 'value', 'Automation Patient', 
     0)
@@ -120,11 +121,12 @@ WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_DateB
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('Profile/Basic Info/select_GenderID'), 'Male', false, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1233', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Postcode'), 'value', '1234', 0)
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('Profile/Basic Info/select_ContactMethod'), 'Phone', false, 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Email'), 'value', 'TestPatient2@email.com', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Email'), 'value', 'TestAutomationPatient@email.com', 
+    0)
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('Profile/Basic Info/select_PhoneType'), 'Mobile', false, 0)
 

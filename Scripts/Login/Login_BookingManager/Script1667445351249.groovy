@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://test-rd-qut.dbresults.com.au/DBHCommonUI/Tenant2/Lo
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Common Objects/input_email'), 'configmgr@email.com')
+WebUI.setText(findTestObject('Common Objects/input_email'), 'Testbookingmanager@email.com')
 
 WebUI.setText(findTestObject('Common Objects/input_Password'), 'Password123!')
 
