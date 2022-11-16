@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Search</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>4b1dba84-7459-4695-a862-740f0bb41113</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <webElementGuid>7da61e3a-9c86-41cd-9b07-5ac789b93a5a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

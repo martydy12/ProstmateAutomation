@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>search_result2</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>2e391df6-ae55-4707-918e-a457b81ef387</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//ul[@class='select2-results']//li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//ul[@class='select2-results']//li[2]</value>
+      <webElementGuid>bdef8752-02a1-4fe6-86e2-858612c45c7b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

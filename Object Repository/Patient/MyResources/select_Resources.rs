@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>select_Resources</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>a7fbd808-ce1e-43f3-bfb7-2b4c34ebe6fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//div[contains(@id,'SearchBar')]//select[contains(@id,'lstbxTags')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//div[contains(@id,'SearchBar')]//select[contains(@id,'lstbxTags')]</value>
+      <webElementGuid>a29a337d-e76b-473f-b6ef-bacd95d869d1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

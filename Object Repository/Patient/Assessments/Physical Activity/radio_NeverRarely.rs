@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>radio_NeverRarely</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>9390de90-afda-45f9-ad60-3dbb183548da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//div[contains(@id,'PhysicalActivityDuration')]/div/span/div[3]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//div[contains(@id,'PhysicalActivityDuration')]/div/span/div[3]//input</value>
+      <webElementGuid>f757351b-a0e9-48cd-98a4-ff2663f4a9a8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

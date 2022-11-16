@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>input_MildFrequency</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>9c1d0c80-f57b-406d-b146-659621bf2127</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//input[contains(@id,'PHYSICALMILDFREQ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//input[contains(@id,'PHYSICALMILDFREQ')]</value>
+      <webElementGuid>6ca06b73-0d6f-4405-9c29-b60128d6ec0b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

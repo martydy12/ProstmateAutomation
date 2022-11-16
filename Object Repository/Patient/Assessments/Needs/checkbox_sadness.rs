@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>checkbox_Sadness</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>5e71b03e-db52-421b-a5df-d38bb18b8179</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//span[contains(@id,&quot;tListOfNeedProblemEmotional&quot;)]//div[3]//div//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//span[contains(@id,&quot;tListOfNeedProblemEmotional&quot;)]//div[3]//div//input</value>
+      <webElementGuid>2a71e060-8378-4026-ad4b-ebbcaa0c789e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

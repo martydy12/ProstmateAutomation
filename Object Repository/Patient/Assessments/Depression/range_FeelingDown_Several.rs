@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>range_FeelingDown_Several</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>f03b5e7a-a481-4b1c-aae4-45bff47f7b98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//div[@class='input_to_focus1']//div[contains(@id,'RangeSliderObject')]/div[2]/div[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//div[@class='input_to_focus1']//div[contains(@id,'RangeSliderObject')]/div[2]/div[6]</value>
+      <webElementGuid>b6962f7e-69fc-4a83-8c5c-b1b72ef6a328</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

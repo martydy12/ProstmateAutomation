@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Search</name>
+   <name>checkbox_Urinary</name>
    <tag></tag>
-   <elementGuidId>8803029e-0b5d-4181-816f-8e02ca821980</elementGuidId>
+   <elementGuidId>67b939cf-7295-4b8c-9e09-a73fae7d971c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Search']</value>
+         <value>//span[contains(@id,&quot;ListOfNeedProblemPhysical&quot;)]//div[4]//div//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Search']</value>
-      <webElementGuid>f4f43a98-3c16-4d76-9385-7e3f59a2c2f6</webElementGuid>
+      <value>//span[contains(@id,&quot;ListOfNeedProblemPhysical&quot;)]//div[4]//div//input</value>
+      <webElementGuid>4e93526d-68f2-4fe8-b398-cb0f3486a615</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
