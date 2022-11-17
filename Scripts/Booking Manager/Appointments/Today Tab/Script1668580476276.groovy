@@ -29,6 +29,20 @@ if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Toda
     WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Today/TBRecord1'), FailureHandling.OPTIONAL)
 
     WebUI.click(findTestObject('Booking Manager/Appointments/Today/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Today/label_status'), 0)
+
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Today/label_status'), 'ACCEPTED')
+
+    WebUI.comment('Add Note')
+
+    WebUI.setText(findTestObject('Booking Manager/Appointments/Today/textarea_Note'), 'Appointment was Accepted')
+
+    WebUI.click(findTestObject('Booking Manager/Appointments/Today/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
+
+    WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Details Saved')
 }
 
 WebUI.delay(2)

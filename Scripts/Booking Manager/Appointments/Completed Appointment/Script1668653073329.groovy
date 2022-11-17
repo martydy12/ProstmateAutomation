@@ -21,31 +21,35 @@ WebUI.callTestCase(findTestCase('Login/Login_BookingManager'), [:], FailureHandl
 
 WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Common/page_Title'), 'APPOINTMENTS')
 
-WebUI.click(findTestObject('Booking Manager/Appointments/Tab/tab_Pending'))
+WebUI.click(findTestObject('Booking Manager/Appointments/Tab/tab_Today'))
 
-if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), 'It looks like you don\'t have any appointments...')
+if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Today/label_NoRecord'), FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Today/label_NoRecord'), 'It looks like you don\'t have any appointments...')
 } else {
-    WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/TBRecord1'), FailureHandling.OPTIONAL)
+    WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Today/TBRecord1'), FailureHandling.OPTIONAL)
 
-    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Booking Manager/Appointments/Today/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Pending/label_status'), 0)
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Today/label_status'), 0)
 
-    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Pending/label_status'), 'REQUESTED')
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Today/label_status'), 'ACCEPTED')
 
-    WebUI.comment('Add Note')
+    WebUI.comment('Complete Appointment')
 
-    WebUI.setText(findTestObject('Booking Manager/Appointments/Pending/textarea_Note'), 'Waiting for Approval')
+    WebUI.scrollToElement(findTestObject('Booking Manager/Appointments/Today/button_Complete'), 0)
 
-    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/button_Save'), FailureHandling.STOP_ON_FAILURE)
+    WebUI.click(findTestObject('Booking Manager/Appointments/Today/button_Complete'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
 
-    WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Details Saved')
+    WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Consultation Marked as Complete')
+
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Today/label_status'), 0)
+
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Today/label_status'), 'COMPLETED')
 }
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

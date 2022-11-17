@@ -23,26 +23,24 @@ WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Common/page
 
 WebUI.click(findTestObject('Booking Manager/Appointments/Tab/tab_Pending'))
 
-if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), FailureHandling.OPTIONAL)) {
-    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), 'It looks like you don\'t have any appointments...')
+if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/TBRecord1'), FailureHandling.OPTIONAL)) {
+    WebUI.comment('Approve Appointment')
+
+    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/TBRecord1_Approve'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Pending/modal_Approve'), 0)
+
+    WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/button_ApproveOk'), FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Common/page_Title'), 0)
+
+    WebUI.click(findTestObject('Booking Manager/Appointments/Tab/tab_Today'))
 } else {
-    WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/TBRecord1'), FailureHandling.OPTIONAL)
+    WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), FailureHandling.OPTIONAL)
 
-    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Pending/label_status'), 0)
-
-    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Pending/label_status'), 'REQUESTED')
-
-    WebUI.comment('Add Note')
-
-    WebUI.setText(findTestObject('Booking Manager/Appointments/Pending/textarea_Note'), 'Waiting for Approval')
-
-    WebUI.click(findTestObject('Booking Manager/Appointments/Pending/button_Save'), FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
-
-    WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Details Saved')
+    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Pending/label_NoRecord'), 'It looks like you don\'t have any appointments...')
 }
 
 WebUI.delay(3)

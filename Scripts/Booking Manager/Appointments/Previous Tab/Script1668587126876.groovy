@@ -30,9 +30,7 @@ if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Prev
 
     WebUI.click(findTestObject('Booking Manager/Appointments/Previous/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Common/page_Title'), 0)
-
-    WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Common/page_Title'), 'PATIENT TEST')
+    WebUI.waitForElementVisible(findTestObject('Booking Manager/Appointments/Previous/label_status'), 0)
 
     WebUI.verifyElementText(findTestObject('Booking Manager/Appointments/Previous/label_status'), 'COMPLETED')
 }

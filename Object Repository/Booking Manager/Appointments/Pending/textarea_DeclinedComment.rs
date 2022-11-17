@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_DeclinedComment</name>
+   <tag></tag>
+   <elementGuidId>510bdf62-4709-47b9-b10f-d653f50cf636</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'Input_DeclineComment')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@id,'Input_DeclineComment')]</value>
+      <webElementGuid>5a343922-4e0d-4f9d-9dfc-4c8361bcc315</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -65,18 +65,15 @@ WebUI.click(findTestObject('Patient/Appointments/Request Appointment/button_Phon
 WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), 0)
 
 'Empty phone number'
-WebUI.click(findTestObject('Patient/Appointments/Request Appointment/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Common/feedback_message'), 0)
-
-WebUI.verifyElementText(findTestObject('Patient/Appointments/Common/feedback_message'), 'Please enter your phone number')
-
+//WebUI.click(findTestObject('Patient/Appointments/Request Appointment/button_Next'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Common/feedback_message'), 0)
+//WebUI.verifyElementText(findTestObject('Patient/Appointments/Common/feedback_message'), 'Please enter your phone number')
 'Input alpha and special character'
-WebUI.setText(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), '!@a')
 
-WebUI.verifyElementAttributeValue(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), 'value', 
-    '', 0)
-
+//WebUI.setText(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), '!@a')
+//WebUI.verifyElementAttributeValue(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), 'value', 
+//    '', 0)
 'Input more than 10 digits'
 WebUI.setText(findTestObject('Patient/Appointments/Request Appointment/input_PhoneNumber'), '091234567890')
 
@@ -116,6 +113,8 @@ WebUI.click(findTestObject('Patient/Appointments/Request Appointment/button_NoTh
 WebUI.waitForElementVisible(findTestObject('Patient/Appointments/Common/text_Title'), 0)
 
 WebUI.verifyElementText(findTestObject('Patient/Appointments/Common/text_Title'), 'APPOINTMENTS')
+
+WebUI.click(findTestObject('Patient/Appointments/Tab/tab_Pending'))
 
 WebUI.delay(2)
 

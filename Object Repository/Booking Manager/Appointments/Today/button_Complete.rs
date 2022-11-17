@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Comment</name>
+   <name>button_Complete</name>
    <tag></tag>
-   <elementGuidId>510bdf62-4709-47b9-b10f-d653f50cf636</elementGuidId>
+   <elementGuidId>bf10dc53-c950-4379-b6a3-63c07d8ae00e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[contains(@id,'Input_DeclineComment')]</value>
+         <value>//input[@value='Complete']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[contains(@id,'Input_DeclineComment')]</value>
-      <webElementGuid>5a343922-4e0d-4f9d-9dfc-4c8361bcc315</webElementGuid>
+      <value>//input[@value='Complete']</value>
+      <webElementGuid>b3c18c24-99c0-4127-9cb8-68a7ffa1ab72</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
