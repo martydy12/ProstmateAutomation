@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_Email</name>
+   <tag></tag>
+   <elementGuidId>09c98ce0-45e9-4f8a-b01b-271f688996e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'Clinician_Email')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'Clinician_Email')]</value>
+      <webElementGuid>a8045c8b-58d5-43ae-8fd6-4e8d57ff2beb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

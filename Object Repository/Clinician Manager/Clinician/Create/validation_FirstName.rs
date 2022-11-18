@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_FirstName</name>
+   <tag></tag>
+   <elementGuidId>811c09cb-ce42-43c8-afd6-2ca0c747e13e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'Clinician_FirstName')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'Clinician_FirstName')]</value>
+      <webElementGuid>816cfb3e-0b5f-4f81-8cf2-d89cb5f7aeea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

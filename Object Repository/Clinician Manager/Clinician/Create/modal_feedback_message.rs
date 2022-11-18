@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_feedback_message</name>
+   <tag></tag>
+   <elementGuidId>28be07fa-ec4a-4662-a502-44b029ee2b7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,&quot;SuccessModal_block_wtContent&quot;)]//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,&quot;SuccessModal_block_wtContent&quot;)]//span</value>
+      <webElementGuid>4a68be29-177b-41ab-9f8b-52d29e8afc85</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

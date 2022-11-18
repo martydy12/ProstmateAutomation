@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_CreateClinician</name>
+   <name>validation_Specialty</name>
    <tag></tag>
-   <elementGuidId>d5def019-205c-4952-8dae-7619a3d03985</elementGuidId>
+   <elementGuidId>c4da77ca-5e88-43d6-babd-443b4a100033</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Create']</value>
+         <value>//span[contains(@id,'Clinician_ClinicianSpeciality')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Create']</value>
-      <webElementGuid>90e6cc05-94ce-43f6-85e1-5e40d1d4e320</webElementGuid>
+      <value>//span[contains(@id,'Clinician_ClinicianSpeciality')]</value>
+      <webElementGuid>cea4a015-de04-4ce0-92a5-e727df7f3e86</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

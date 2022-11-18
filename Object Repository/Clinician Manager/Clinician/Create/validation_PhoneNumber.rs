@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>353b16dd-ca3e-439d-8795-de4070a720dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'Clinician_PhoneNumber')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'Clinician_PhoneNumber')]</value>
+      <webElementGuid>80959a1d-b3d0-4a4c-99bc-d38488deba35</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
