@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TBRecord1_Name</name>
+   <name>label_status</name>
    <tag></tag>
-   <elementGuidId>1b20b5bf-cafd-407e-ad29-5006e2375fe6</elementGuidId>
+   <elementGuidId>cffb4250-5137-4033-b1d9-9709a6084839</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
+         <value>//div[@class='heading6 OSInline']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
-      <webElementGuid>755a1057-a830-4d4e-a011-5bd5cd505a0a</webElementGuid>
+      <value>//div[@class='heading6 OSInline']</value>
+      <webElementGuid>cb05dd93-b654-4dd2-a5ed-1fe7bee65dd6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

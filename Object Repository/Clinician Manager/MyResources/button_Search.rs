@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TBRecord1_Name</name>
+   <name>button_Search</name>
    <tag></tag>
-   <elementGuidId>1b20b5bf-cafd-407e-ad29-5006e2375fe6</elementGuidId>
+   <elementGuidId>d21bb866-602e-4c04-a224-7957eb7167ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
+         <value>//input[@value='Search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
-      <webElementGuid>755a1057-a830-4d4e-a011-5bd5cd505a0a</webElementGuid>
+      <value>//input[@value='Search']</value>
+      <webElementGuid>bdab3670-80a1-4fa7-af76-0467b341946a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

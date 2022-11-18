@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'TodayConsultationTable')]//tbody//tr[1]//td[1]</value>
+         <value>//table[contains(@id,'TodayConsultationTable')]//tbody//tr[1]//td[1]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'TodayConsultationTable')]//tbody//tr[1]//td[1]</value>
-      <webElementGuid>ff348748-4b5c-4d34-b87f-3586e5497c80</webElementGuid>
+      <value>//table[contains(@id,'TodayConsultationTable')]//tbody//tr[1]//td[1]//a</value>
+      <webElementGuid>fdf89e08-8c38-42da-93ae-a669ae70d08d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TBRecord1_Name</name>
+   <name>tab_Upcoming</name>
    <tag></tag>
-   <elementGuidId>1b20b5bf-cafd-407e-ad29-5006e2375fe6</elementGuidId>
+   <elementGuidId>a75a1161-c768-4df4-9a11-2641db84262b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
+         <value>//div[contains(@id,'Tabs_Header')]//div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
-      <webElementGuid>755a1057-a830-4d4e-a011-5bd5cd505a0a</webElementGuid>
+      <value>//div[contains(@id,'Tabs_Header')]//div[2]</value>
+      <webElementGuid>ef7caa35-7652-4275-ae85-3553cf516b34</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

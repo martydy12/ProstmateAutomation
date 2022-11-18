@@ -3,7 +3,21 @@
    <description></description>
    <name>input_SearchResources</name>
    <tag></tag>
-   <elementGuidId>e0e4a8a9-f6b8-41ac-bdab-e85cdb267b71</elementGuidId>
+   <elementGuidId>dc079fbe-d354-4922-abd8-939b8207743a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class='select2-search-field']//input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[@class='select2-search-field']//input</value>
+      <webElementGuid>4a71c2ed-0093-4e32-8d34-848bb03fb9d7</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

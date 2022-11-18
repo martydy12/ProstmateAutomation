@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TBRecord1_Name</name>
+   <name>textarea_Note</name>
    <tag></tag>
-   <elementGuidId>1b20b5bf-cafd-407e-ad29-5006e2375fe6</elementGuidId>
+   <elementGuidId>705a6f0b-8a59-4633-b1db-45bcc5707873</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
+         <value>//textarea[contains(@id,'Input_Note')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
-      <webElementGuid>755a1057-a830-4d4e-a011-5bd5cd505a0a</webElementGuid>
+      <value>//textarea[contains(@id,'Input_Note')]</value>
+      <webElementGuid>1bff8470-5100-4727-808e-cb5178edfad4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

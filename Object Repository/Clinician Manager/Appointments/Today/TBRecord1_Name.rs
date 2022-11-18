@@ -3,11 +3,11 @@
    <description></description>
    <name>TBRecord1_Name</name>
    <tag></tag>
-   <elementGuidId>1b20b5bf-cafd-407e-ad29-5006e2375fe6</elementGuidId>
+   <elementGuidId>e7bd2c98-ab49-496c-a9bf-781731aae2fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
+         <value>//table[contains(@id,'ConsultationsToday')]//tbody//tr[1]//td[1]//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//table[contains(@id,'ConsultationsUpcoming')]//tbody//tr[1]//td[1]//a</value>
-      <webElementGuid>755a1057-a830-4d4e-a011-5bd5cd505a0a</webElementGuid>
+      <value>//table[contains(@id,'ConsultationsToday')]//tbody//tr[1]//td[1]//a</value>
+      <webElementGuid>79a63aaa-374a-42f1-a798-670d27565993</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
