@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DeactivateConfirm</name>
+   <tag></tag>
+   <elementGuidId>8dccda05-077b-4bde-9de1-e7b68c12b97d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='DBHealthWidgets_wtDeactivateUser_block_wtActions']//input[@value='Confirm']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='DBHealthWidgets_wtDeactivateUser_block_wtActions']//input[@value='Confirm']</value>
+      <webElementGuid>fb9a8e38-2c78-4a3c-bc33-5bffde1b1c6c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

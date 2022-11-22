@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Activate</name>
+   <tag></tag>
+   <elementGuidId>9e382245-a302-4535-827c-f20d44539b18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value='Activate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@value='Activate']</value>
+      <webElementGuid>9a5faf7b-6596-4894-bd3a-81cc8f89076c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

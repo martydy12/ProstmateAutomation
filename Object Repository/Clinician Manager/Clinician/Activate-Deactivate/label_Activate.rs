@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Activate</name>
+   <tag></tag>
+   <elementGuidId>3d0e6b05-ec2a-4cb4-9f2e-3156c0e92b45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;DBHealthWidgets_wtActivateUser_block_wtContent&quot;]/div[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;DBHealthWidgets_wtActivateUser_block_wtContent&quot;]/div[1]/span</value>
+      <webElementGuid>62132fa5-7454-4d39-aa6e-346f06d0b830</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

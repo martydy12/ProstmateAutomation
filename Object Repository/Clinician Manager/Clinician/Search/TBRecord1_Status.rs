@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_Status</name>
+   <tag></tag>
+   <elementGuidId>83a76d71-d3d1-4f3b-991a-32c050db2aaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'ClinicianTable')]//tbody//tr[1]//td[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'ClinicianTable')]//tbody//tr[1]//td[5]</value>
+      <webElementGuid>26ce74d5-8cfc-4838-a5b3-c76159ef7f33</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

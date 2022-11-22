@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Deactivate</name>
+   <tag></tag>
+   <elementGuidId>9931b3ac-c74a-45ea-a427-988a010ebec4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value='Deactivate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@value='Deactivate']</value>
+      <webElementGuid>a613e233-4075-46c8-9369-b402977436ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
