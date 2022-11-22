@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_Approve</name>
+   <tag></tag>
+   <elementGuidId>4976b154-2a5d-4264-b6e4-cbed2fa57b89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='DBHealthWidgets_wtSuccess_block']//div[@class='card']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='DBHealthWidgets_wtSuccess_block']//div[@class='card']</value>
+      <webElementGuid>483d63fe-a368-4e86-ad9b-4e7086d25bdd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

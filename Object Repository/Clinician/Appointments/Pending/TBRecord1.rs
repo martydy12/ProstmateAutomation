@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1</name>
+   <tag></tag>
+   <elementGuidId>50468613-ecc3-4a3a-a2bf-eaa6bb821e3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'ConsultationsRequested')]//tbody//tr[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'ConsultationsRequested')]//tbody//tr[1]</value>
+      <webElementGuid>f29f4cd3-d47f-49d3-b794-45cf8774b31d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

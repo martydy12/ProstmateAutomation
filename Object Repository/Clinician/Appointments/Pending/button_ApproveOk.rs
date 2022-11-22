@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ApproveOk</name>
+   <tag></tag>
+   <elementGuidId>1d0c7174-eeec-4510-aed1-94d7b6eac864</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'Success_block_wtActions')]//input[@value='Ok']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'Success_block_wtActions')]//input[@value='Ok']</value>
+      <webElementGuid>6816ff89-b106-44fd-a056-8264f920179d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

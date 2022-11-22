@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DeclineYes</name>
+   <tag></tag>
+   <elementGuidId>e58b903d-92e8-4eab-97c3-718d7b9f1d1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'DeclineModal_block_wtActions')]//input[@value='Yes']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'DeclineModal_block_wtActions')]//input[@value='Yes']</value>
+      <webElementGuid>b4bd7808-68a5-4b3d-8385-d9faaa513840</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

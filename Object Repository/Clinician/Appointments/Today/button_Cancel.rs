@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel</name>
+   <tag></tag>
+   <elementGuidId>4f51e2be-9374-4f03-a1f5-b376531fcc59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'ConsultationsToday')]//tbody//tr[1]//td[6]//input[@value='Cancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'ConsultationsToday')]//tbody//tr[1]//td[6]//input[@value='Cancel']</value>
+      <webElementGuid>2cef6798-ae33-4820-8148-82a1a909426c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

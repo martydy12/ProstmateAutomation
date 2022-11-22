@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_Approve</name>
+   <tag></tag>
+   <elementGuidId>e2f48d99-decc-41e6-b0cc-84f0da27cc13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'ConsultationsRequested')]//tbody//tr[1]//td[6]//input[@value='Approve']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'ConsultationsRequested')]//tbody//tr[1]//td[6]//input[@value='Approve']</value>
+      <webElementGuid>3dea2768-47c8-4166-b8d1-a2a9845a9933</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_Decline</name>
+   <tag></tag>
+   <elementGuidId>a7f09e70-3168-4d76-b9ab-b264ee0e681d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='DBHealthWidgets_wtDeclineModal_block']//div[@class='card']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='DBHealthWidgets_wtDeclineModal_block']//div[@class='card']</value>
+      <webElementGuid>decbbe33-5aed-4c1d-8036-dae69e1827ba</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

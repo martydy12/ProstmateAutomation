@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Note</name>
+   <tag></tag>
+   <elementGuidId>597c56e1-1d1a-47f6-a710-e6dd60fea7a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'Input_Note')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@id,'Input_Note')]</value>
+      <webElementGuid>2d47a389-aa1b-4f23-bbb2-639d1e280970</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
