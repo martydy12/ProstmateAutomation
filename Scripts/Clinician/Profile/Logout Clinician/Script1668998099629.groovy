@@ -19,17 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login/Login_Clinician'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Clinician/Menu/menu_Logout'))
+WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout'), 0)
 
-WebUI.switchToFrame(findTestObject('Common Objects/Logout/iframe_Logout'), 0)
+WebUI.click(findTestObject('Profile/Dropdown/select_Logout'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Common Objects/Logout/button_LogMeOut'), 0)
+WebUI.switchToFrame(findTestObject('Profile/Logout/modal_iframe'), 0)
 
-WebUI.click(findTestObject('Common Objects/Logout/button_LogMeOut'))
+WebUI.comment('Cancel Logout')
 
-WebUI.waitForElementPresent(findTestObject('Common Objects/button_Register'), 0)
+WebUI.waitForElementVisible(findTestObject('Profile/Logout/modal_LogoutConfirmation'), 0)
+
+WebUI.click(findTestObject('Profile/Logout/button_Cancel'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.switchToDefaultContent()
+
+WebUI.comment('Cancel Logout')
+
+WebUI.click(findTestObject('Common Objects/img_UserIcon'))
+
+WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Logout'), 0)
+
+WebUI.click(findTestObject('Profile/Dropdown/select_Logout'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.switchToFrame(findTestObject('Profile/Logout/modal_iframe'), 0)
+
+WebUI.waitForElementVisible(findTestObject('Profile/Logout/modal_LogoutConfirmation'), 0)
+
+WebUI.click(findTestObject('Profile/Logout/button_YesLogout'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.switchToDefaultContent()
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Common Objects/text_Login'), 0)
+
+WebUI.verifyElementText(findTestObject('Common Objects/text_Login'), 'LOGIN')
 
 WebUI.closeBrowser()
 
