@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Reset</name>
+   <name>field_SearchResources</name>
    <tag></tag>
-   <elementGuidId>18178ef6-8c83-4e42-b039-762c4ef67030</elementGuidId>
+   <elementGuidId>8135eec1-5832-4b14-8359-18c3f7e8cf18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Reset']</value>
+         <value>//div[contains(@id,'lstbxTags')]/parent::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Reset']</value>
-      <webElementGuid>03bef341-2d29-46c7-8a9d-7e37c3b03b20</webElementGuid>
+      <value>//div[contains(@id,'lstbxTags')]/parent::div</value>
+      <webElementGuid>589cd521-a45f-401e-b8f6-dce332999ff9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

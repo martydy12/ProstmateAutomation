@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Reset</name>
+   <name>search_result2</name>
    <tag></tag>
-   <elementGuidId>18178ef6-8c83-4e42-b039-762c4ef67030</elementGuidId>
+   <elementGuidId>f37c9f3c-64d2-4e61-981f-1b826e5513b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Reset']</value>
+         <value>//ul[@class='select2-results']//li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Reset']</value>
-      <webElementGuid>03bef341-2d29-46c7-8a9d-7e37c3b03b20</webElementGuid>
+      <value>//ul[@class='select2-results']//li[2]</value>
+      <webElementGuid>a2c699a3-e1e1-4f7b-9df3-e5f18522def8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Reset</name>
+   <name>page_Title</name>
    <tag></tag>
-   <elementGuidId>18178ef6-8c83-4e42-b039-762c4ef67030</elementGuidId>
+   <elementGuidId>390bd60f-3656-49ab-bf59-ba6328659016</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@value='Reset']</value>
+         <value>//span[@class='heading1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@value='Reset']</value>
-      <webElementGuid>03bef341-2d29-46c7-8a9d-7e37c3b03b20</webElementGuid>
+      <value>//span[@class='heading1']</value>
+      <webElementGuid>9342955e-40b7-427d-a855-66ccfd068f41</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

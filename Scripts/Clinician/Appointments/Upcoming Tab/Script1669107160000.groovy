@@ -17,21 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login_ClinicianManager'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login_Clinician'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Clinician/Menu/menu_MyResources'))
+WebUI.click(findTestObject('Clinician/Menu/menu_Appointments'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Living with my condition', false)
+WebUI.verifyElementText(findTestObject('Clinician/Appointments/Common/page_Title'), 'APPOINTMENTS')
 
-WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Clinician/Appointments/Tab/tab_Upcoming'))
 
-WebUI.click(findTestObject('null'))
+if (WebUI.verifyElementVisible(findTestObject('Clinician/Appointments/Upcoming/label_NoRecord'), FailureHandling.OPTIONAL)) {
+    WebUI.verifyElementText(findTestObject('Clinician/Appointments/Upcoming/label_NoRecord'), 'It looks like you don\'t have any appointments...')
+} else {
+    WebUI.verifyElementVisible(findTestObject('Clinician/Appointments/Upcoming/TBRecord1'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('null'))
+    WebUI.click(findTestObject('Clinician/Appointments/Upcoming/TBRecord1_Name'), FailureHandling.STOP_ON_FAILURE)
+}
 
-WebUI.verifyTextPresent('Resources and Support', false)
-
-WebUI.click(findTestObject('null'))
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

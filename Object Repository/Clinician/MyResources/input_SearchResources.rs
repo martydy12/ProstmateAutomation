@@ -3,11 +3,11 @@
    <description></description>
    <name>input_SearchResources</name>
    <tag></tag>
-   <elementGuidId>12ee57cf-dfcc-411c-9c30-c6f33b178f3d</elementGuidId>
+   <elementGuidId>75bed8a0-8a77-425d-a63d-b63dc951db37</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@id,'lstbxTags')]</value>
+         <value>//li[@class='select2-search-field']//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@id,'lstbxTags')]</value>
-      <webElementGuid>8110d89d-2c2a-4a78-b51d-3bcb34934d34</webElementGuid>
+      <value>//li[@class='select2-search-field']//input</value>
+      <webElementGuid>2c19f729-f7d7-4fdc-9792-ac0a028508cb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
