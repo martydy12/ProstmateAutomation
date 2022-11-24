@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SearchNote</name>
+   <tag></tag>
+   <elementGuidId>c3de2f81-fad4-43d1-99e4-e3bb11916b23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'NotesTab_block_wtContent_wtctn__Search')]//input[contains(@id,'inputSearch')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'NotesTab_block_wtContent_wtctn__Search')]//input[contains(@id,'inputSearch')]</value>
+      <webElementGuid>06274094-3360-4703-8edc-5075a0689431</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

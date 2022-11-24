@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_PatientNote</name>
+   <tag></tag>
+   <elementGuidId>71175c5e-5915-4a2d-8867-7f141685f5ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'PatientNote')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@id,'PatientNote')]</value>
+      <webElementGuid>0f233515-248d-4341-97a1-66dadcf8ee61</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

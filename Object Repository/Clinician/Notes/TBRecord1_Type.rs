@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_Type</name>
+   <tag></tag>
+   <elementGuidId>02a0ccad-9396-4dff-94a8-f7c8992048b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'PatientNotes2Table')]//tbody//tr[1]//td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'PatientNotes2Table')]//tbody//tr[1]//td[4]</value>
+      <webElementGuid>45527b7e-627b-4c16-ace9-a3bb4a19f552</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
