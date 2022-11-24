@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tab_Appointment</name>
+   <tag></tag>
+   <elementGuidId>1fef621d-8dc4-4fd9-b32e-5bec3439a673</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Appointment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Appointment']</value>
+      <webElementGuid>75d39fca-c585-4e02-8886-d2d7c11605c3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

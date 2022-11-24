@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_LastName</name>
+   <tag></tag>
+   <elementGuidId>09f55826-a5b8-484c-978d-064ff52b12de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'PatientRecordsTable')]//tbody//tr[1]//td[2]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'PatientRecordsTable')]//tbody//tr[1]//td[2]//a</value>
+      <webElementGuid>3bb763cd-7f89-476f-b3ce-11c33fef7fd5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

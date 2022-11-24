@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_SearchPatient</name>
+   <tag></tag>
+   <elementGuidId>679c8f71-d290-480b-99d7-8253244ff1c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'InputSearchName')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'InputSearchName')]</value>
+      <webElementGuid>1cfc60d3-8399-4c3e-b6cc-76dac4892798</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

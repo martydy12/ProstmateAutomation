@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Comment</name>
+   <tag></tag>
+   <elementGuidId>2f842aa2-716a-473f-8942-bcb77ac1527a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::textarea[contains(@id,'LifeEvent_COMMENT')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::textarea[contains(@id,'LifeEvent_COMMENT')]</value>
+      <webElementGuid>d6fe338a-71cd-449f-afbd-66d1837ac19e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

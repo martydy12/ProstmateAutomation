@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_PSAResult</name>
+   <tag></tag>
+   <elementGuidId>9ade26f2-c428-46aa-b913-5cf9615c20c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::span[contains(@id,'LIFEEVENTVALUE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::span[contains(@id,'LIFEEVENTVALUE')]</value>
+      <webElementGuid>1c9f2cf2-f622-49be-8807-56dc5c15bc37</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

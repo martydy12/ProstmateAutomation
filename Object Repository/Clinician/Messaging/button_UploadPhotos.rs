@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@id,'wtDropboxContainer')]</value>
+         <value>//*[@id=&quot;DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_Dropzone_wtWBDropzone_block_wtSuccessEvent&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(@id,'wtDropboxContainer')]</value>
-      <webElementGuid>b0097738-4999-4afd-9e2f-0d8db5321da1</webElementGuid>
+      <value>//*[@id=&quot;DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_Dropzone_wtWBDropzone_block_wtSuccessEvent&quot;]</value>
+      <webElementGuid>ad734d40-1953-4553-b335-257dabd71573</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

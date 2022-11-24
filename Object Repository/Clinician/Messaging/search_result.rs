@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_result</name>
+   <tag></tag>
+   <elementGuidId>ad4ce47d-59ca-4235-9ec1-c207c547c47d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'tListRecords')]//div[contains(@id,'FriendItemContainer')]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'tListRecords')]//div[contains(@id,'FriendItemContainer')]//a</value>
+      <webElementGuid>d7b459b2-853b-4fdf-ba7b-ecfa4572de80</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

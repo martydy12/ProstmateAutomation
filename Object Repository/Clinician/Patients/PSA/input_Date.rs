@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Date</name>
+   <tag></tag>
+   <elementGuidId>05edf26e-a2a8-4c69-b1ae-c3284c132ef3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@id,'HealthIndicatorForm')]//following-sibling::input[contains(@name,'LifeEvent_LIFEEVENTDUEDATE')]</value>
+      <webElementGuid>0baa93bb-2dcd-4319-b4b0-0e749ce42dfc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

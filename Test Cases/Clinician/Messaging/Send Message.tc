@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c050b6d-94a0-49ba-94b6-30ebc53deec3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09d82b14-3e0a-4bfe-a7a6-9a67e23d939d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\berna\\\\git\\\\ProstmateAutomation\\\\Images\\\\patient.png'</defaultValue>
+      <description></description>
+      <id>09d82b14-3e0a-4bfe-a7a6-9a67e23d939d</id>
+      <masked>false</masked>
+      <name>Photo</name>
+   </variable>
+</TestCaseEntity>

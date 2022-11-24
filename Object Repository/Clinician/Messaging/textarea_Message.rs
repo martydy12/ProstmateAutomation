@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Message</name>
+   <tag></tag>
+   <elementGuidId>088159e1-86b1-4107-b427-c154982b0336</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[contains(@id,'NewMessageInput')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[contains(@id,'NewMessageInput')]</value>
+      <webElementGuid>03f173e5-e5ab-4ebf-a028-2a1cf7831f24</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
