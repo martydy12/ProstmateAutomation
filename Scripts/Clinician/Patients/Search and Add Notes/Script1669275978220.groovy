@@ -41,3 +41,75 @@ WebUI.click(findTestObject('Clinician/Patients/Tab/tab_Notes'))
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.comment('Add New Note')
+
+WebUI.click(findTestObject('Clinician/Notes/button_AddNewNote'))
+
+WebUI.waitForElementVisible(findTestObject('Clinician/Notes/textarea_PatientNote'), 0)
+
+'Input more than 500 characters'
+WebUI.setText(findTestObject('Clinician/Notes/textarea_PatientNote'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop!!!!')
+
+WebUI.verifyElementAttributeValue(findTestObject('Clinician/Notes/textarea_PatientNote'), 'value', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop!!', 
+    0)
+
+WebUI.delay(1)
+
+WebUI.clearText(findTestObject('Clinician/Notes/textarea_PatientNote'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Clinician/Notes/textarea_PatientNote'), 'Automation - Test Note')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Clinician/Notes/button_Save'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
+
+WebUI.verifyElementText(findTestObject('Common Objects/feedback_message'), 'Patient note successfully saved!')
+
+WebUI.delay(2)
+
+WebUI.comment('Search non existing Note')
+
+WebUI.setText(findTestObject('Clinician/Notes/input_SearchNote'), 'Don\'t know')
+
+WebUI.click(findTestObject('Clinician/Notes/button_Search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Clinician/Notes/label_NoRecords'), 0)
+
+WebUI.verifyElementText(findTestObject('Clinician/Notes/label_NoRecords'), 'No items to show...')
+
+WebUI.delay(2)
+
+WebUI.comment('Reset')
+
+WebUI.click(findTestObject('Clinician/Notes/button_Reset'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementAttributeValue(findTestObject('Clinician/Notes/input_SearchNote'), 'placeholder', 'Search Notes', 0)
+
+WebUI.delay(2)
+
+WebUI.comment('Search the created note')
+
+Date today = new Date()
+
+String todaysDate = today.format('dd-mm-yy')
+
+WebUI.setText(findTestObject('Clinician/Notes/input_SearchNote'), 'Automation - Test Note')
+
+WebUI.click(findTestObject('Clinician/Notes/button_Search'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('Clinician/Notes/TBRecord1'), 0)
+
+WebUI.verifyElementText(findTestObject('Clinician/Notes/TBRecord1_Date'), '' + todaysDate.toString())
+
+WebUI.verifyElementText(findTestObject('Clinician/Notes/TBRecord1_Clinician'), 'TestClinician Automation')
+
+WebUI.verifyElementText(findTestObject('Clinician/Notes/TBRecord1_Type'), 'General')
+
+WebUI.verifyElementText(findTestObject('Clinician/Notes/TBRecord1_NoteDetails'), 'Automation - Test Note')
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
