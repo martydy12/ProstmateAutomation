@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login_Patient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login_Clinician'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Common Objects/img_UserIcon'))
 
@@ -25,7 +25,9 @@ WebUI.waitForElementVisible(findTestObject('Profile/Dropdown/select_Profile'), 0
 
 WebUI.click(findTestObject('Profile/Dropdown/select_Profile'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Profile/Basic Info/menu_UserPreferences'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Profile/Clinician Additional Basic Info/menu_UserPreferences'), 0)
+
+WebUI.click(findTestObject('Profile/Clinician Additional Basic Info/menu_UserPreferences'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Profile/User Preferences/page_Title'), 0)
 

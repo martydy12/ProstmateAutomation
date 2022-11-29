@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_OrgAddress</name>
+   <tag></tag>
+   <elementGuidId>08980178-b7de-4943-a377-cf7384c2a743</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'ORAGNISATIONADDRESS1')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'ORAGNISATIONADDRESS1')]</value>
+      <webElementGuid>fecf6ad8-a18e-4dba-a0ad-8fc2f698a8f2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

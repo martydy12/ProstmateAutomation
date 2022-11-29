@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_BasicInfo</name>
+   <tag></tag>
+   <elementGuidId>84f59222-887f-4ec7-83b7-e3c02ae2c5e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id,&quot;Menu&quot;)][2]/div//span//div[1]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@id,&quot;Menu&quot;)][2]/div//span//div[1]//a</value>
+      <webElementGuid>645e8a88-bed1-4a77-8969-633fa16d0532</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_UploadImage</name>
+   <tag></tag>
+   <elementGuidId>a02d6533-b460-4dd7-8b67-874f7e3cf41d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'ctr_UploadButton')]//div[2]//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'ctr_UploadButton')]//div[2]//input</value>
+      <webElementGuid>11d0dfb9-f93c-4ee5-9b72-9059c93b79ac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

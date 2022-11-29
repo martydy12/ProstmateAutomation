@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_Dropzone_wtWBDropzone_block_wtSuccessEvent&quot;]</value>
+         <value>//div[@id='DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_wtButtonContainer']//div[@id='DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_wtDropboxContainer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_Dropzone_wtWBDropzone_block_wtSuccessEvent&quot;]</value>
-      <webElementGuid>ad734d40-1953-4553-b335-257dabd71573</webElementGuid>
+      <value>//div[@id='DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_wtButtonContainer']//div[@id='DBHealthWidgets_wt11_block_OutSystemsUIWeb_wt20_block_wtContent_wtMainContent_wtChatBox2Block_wtDropboxContainer']</value>
+      <webElementGuid>ef0ed821-124e-4b0e-ad38-04a91f32fdbe</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

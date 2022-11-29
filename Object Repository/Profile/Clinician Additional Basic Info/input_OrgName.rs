@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_OrgName</name>
+   <tag></tag>
+   <elementGuidId>f28e328d-d2fe-470f-9e5d-d89a3342e871</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'ORGANISATIONNAME')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'ORGANISATIONNAME')]</value>
+      <webElementGuid>a591c51d-b582-49ff-bf76-b41e3fe0307d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

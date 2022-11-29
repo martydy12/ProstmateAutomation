@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_OrgSuburb</name>
+   <tag></tag>
+   <elementGuidId>0b8716e9-eb7f-4a6c-a5ec-1e6769426aad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@id,'ORGANISATIONSUBURB')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@id,'ORGANISATIONSUBURB')]</value>
+      <webElementGuid>9cfd2c15-d729-4461-b0c6-494cc0d21d94</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

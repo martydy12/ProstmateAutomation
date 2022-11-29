@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_Availability</name>
+   <tag></tag>
+   <elementGuidId>023089c3-d847-4633-9349-74a6aede1067</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id,&quot;Menu&quot;)][2]/div//span//div[4]//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@id,&quot;Menu&quot;)][2]/div//span//div[4]//a</value>
+      <webElementGuid>4dfbd3af-c76d-4cd5-bc52-c68fecd45154</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
