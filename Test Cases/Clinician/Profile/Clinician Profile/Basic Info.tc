@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Basic Info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25e4584e-0327-4a16-b900-a9c5acc8ab10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8be2b2bd-3fa8-4625-ab09-a26a237c61f0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\berna\\\\git\\\\ProstmateAutomation\\\\Images\\\\Clinician.jpg'</defaultValue>
+      <description></description>
+      <id>8be2b2bd-3fa8-4625-ab09-a26a237c61f0</id>
+      <masked>false</masked>
+      <name>Upload</name>
+   </variable>
+</TestCaseEntity>
