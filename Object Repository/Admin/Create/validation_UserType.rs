@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_UserType</name>
+   <tag></tag>
+   <elementGuidId>514cbbdb-f404-4e51-9f35-c1ade536bd01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'UserType')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'UserType')]</value>
+      <webElementGuid>0ab98ab6-54d2-41d2-a5b3-b59b1cae39fd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

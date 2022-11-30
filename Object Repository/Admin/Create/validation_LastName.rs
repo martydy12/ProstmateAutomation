@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_LastName</name>
+   <tag></tag>
+   <elementGuidId>795ee002-3377-4bb7-952c-6482e4cd8143</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'LastName')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'LastName')]</value>
+      <webElementGuid>94f4c2d9-777b-478a-8ac6-29b7080495b7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

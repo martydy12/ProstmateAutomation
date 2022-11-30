@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_UserType</name>
+   <tag></tag>
+   <elementGuidId>eb6c7316-3ea6-4458-bafb-25b355b17abf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'UserType')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'UserType')]</value>
+      <webElementGuid>beff2562-92fb-47eb-a079-fdfbd2bbcd83</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

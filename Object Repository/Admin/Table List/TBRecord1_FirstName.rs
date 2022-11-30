@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_FirstName</name>
+   <tag></tag>
+   <elementGuidId>51e71c5b-6c7e-49fc-a778-383d3d216b1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'UserPersonaTable')]//tbody//tr[1]//td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'UserPersonaTable')]//tbody//tr[1]//td[2]</value>
+      <webElementGuid>914ef754-273d-4f63-8c4f-d841e5a9e3c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

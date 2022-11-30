@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TBRecord1_Email</name>
+   <tag></tag>
+   <elementGuidId>1a44dbcf-3235-4237-af5c-66f208e3f94a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[contains(@id,'UserPersonaTable')]//tbody//tr[1]//td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[contains(@id,'UserPersonaTable')]//tbody//tr[1]//td[3]</value>
+      <webElementGuid>6b12a542-49b8-43f0-be4f-0bda0005defd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

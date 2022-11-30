@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ActivateConfirm</name>
+   <tag></tag>
+   <elementGuidId>777961d7-706f-479c-a313-f7e6ac13a9e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='DBHealthWidgets_wtActivateUser_block_wtActions']//input[@value='Confirm']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='DBHealthWidgets_wtActivateUser_block_wtActions']//input[@value='Confirm']</value>
+      <webElementGuid>3ddf0980-903a-4d6d-839d-5bd91cf6e1d4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
