@@ -73,7 +73,7 @@ WebUI.setText(findTestObject('Admin/Create/input_FirstName'), 'Clinician Manager
 
 WebUI.setText(findTestObject('Admin/Create/input_LastName'), 'Aautomation')
 
-WebUI.setText(findTestObject('Admin/Create/input_Email'), 'CM_automation@email.com')
+WebUI.setText(findTestObject('Admin/Create/input_Email'), 'TEST_automation@email.com')
 
 WebUI.selectOptionByLabel(findTestObject('Admin/Create/select_UserType'), 'Clinician Manager', false)
 
@@ -97,39 +97,11 @@ WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_LastName'), '
 
 WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_FirstName'), 'Clinician Manager')
 
-WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_Email'), 'CM_automation@email.com')
+WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_Email'), 'TEST_automation@email.com')
 
 WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_UserType'), 'Clinician Manager')
 
 WebUI.verifyElementText(findTestObject('Admin/Table List/TBRecord1_Status'), 'Registered')
-
-WebUI.delay(2)
-
-WebUI.comment('CREATE USER - Clinician Manager')
-
-WebUI.click(findTestObject('Admin/Create/button_Create'))
-
-WebUI.waitForElementVisible(findTestObject('Admin/Table List/page_Title'), 0)
-
-WebUI.verifyElementText(findTestObject('Admin/Table List/page_Title'), 'CREATE USER')
-
-WebUI.setText(findTestObject('Admin/Create/input_FirstName'), 'Booking Manager')
-
-WebUI.setText(findTestObject('Admin/Create/input_LastName'), 'Aautomation')
-
-WebUI.setText(findTestObject('Admin/Create/input_Email'), 'BM_automation@email.com')
-
-WebUI.selectOptionByLabel(findTestObject('Admin/Create/select_UserType'), 'Booking Manager', false)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Admin/Create/button_Create'))
-
-WebUI.waitForElementVisible(findTestObject('Admin/Create/modal_feedback_message'), 0)
-
-WebUI.verifyElementText(findTestObject('Admin/Create/modal_feedback_message'), 'Account successfully created.')
-
-WebUI.click(findTestObject('Admin/Create/button_Okay'))
 
 WebUI.delay(2)
 
