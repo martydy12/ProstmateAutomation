@@ -67,6 +67,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Profile/Basic Info/input_Email
 
 WebUI.selectOptionByLabel(findTestObject('Profile/Basic Info/select_PhoneType'), 'Mobile', false)
 
+WebUI.clearText(findTestObject('Profile/Basic Info/input_PhoneNum'))
+
 'Update Phone'
 WebUI.setText(findTestObject('Profile/Basic Info/input_PhoneNum'), '0988776651', FailureHandling.STOP_ON_FAILURE)
 
