@@ -163,15 +163,17 @@ WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/input_Date'
 WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/Timeline/input_Date'), 'value', '' + todaysDate.toString(), 
     0)
 
+WebUI.scrollToElement(findTestObject('Patient/My_Info/Timeline/input_Comment'), 0)
+
 WebUI.click(findTestObject('Patient/My_Info/Timeline/button_SaveInfo'))
 
 WebUI.waitForElementVisible(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 0)
 
 WebUI.verifyElementText(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 'Special character not allowed')
 
-WebUI.setText(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), '!@a')
+WebUI.setText(findTestObject('Patient/My_Info/Timeline/input_PSAResult'), '!@a')
 
-WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/Timeline/validation_PSAResult'), 'value', '', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Patient/My_Info/Timeline/input_PSAResult'), 'value', '', 0)
 
 'Save PSA'
 WebUI.setText(findTestObject('Patient/My_Info/Timeline/input_PSAResult'), '101')

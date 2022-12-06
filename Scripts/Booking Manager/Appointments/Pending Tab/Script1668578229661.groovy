@@ -38,6 +38,8 @@ if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Pend
 
     WebUI.setText(findTestObject('Booking Manager/Appointments/Pending/textarea_Note'), 'Waiting for Approval')
 
+    WebUI.scrollToElement(findTestObject('Booking Manager/Appointments/Pending/button_Save'), 0)
+
     WebUI.click(findTestObject('Booking Manager/Appointments/Pending/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)

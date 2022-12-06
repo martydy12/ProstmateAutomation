@@ -38,6 +38,8 @@ if (WebUI.verifyElementVisible(findTestObject('Booking Manager/Appointments/Toda
 
     WebUI.setText(findTestObject('Booking Manager/Appointments/Today/textarea_Note'), 'Appointment was Accepted')
 
+    WebUI.scrollToElement(findTestObject('Booking Manager/Appointments/Today/button_Save'), 0)
+
     WebUI.click(findTestObject('Booking Manager/Appointments/Today/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.waitForElementVisible(findTestObject('Common Objects/feedback_message'), 0)
