@@ -126,7 +126,7 @@ WebUI.setText(findTestObject('Clinician Manager/Clinician/Create/input_Clinician
 
 WebUI.setText(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianLastName'), 'Madden')
 
-WebUI.setText(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'david.maiden@email.com')
+WebUI.setText(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'david_maiden@email.com')
 
 WebUI.setText(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianPhoneNumber'), '4142236612')
 

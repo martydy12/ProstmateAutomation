@@ -47,7 +47,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Cr
 WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianLastName'), 'value', 
     'Madden', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'value', 'david.maiden@email.com', 
+WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'value', 'david_maiden@email.com', 
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianPhoneNumber'), 'value', 
@@ -182,7 +182,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Cr
 WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianLastName'), 'value', 
     'Madden', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'value', 'david.maiden@email.com', 
+WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/Input_ClinicianEmail'), 'value', 'david_maiden@email.com', 
     0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Clinician Manager/Clinician/Create/input_ClinicianPhoneNumber'), 'value', 
